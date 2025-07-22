@@ -11,23 +11,14 @@ Meu objetivo é criar soluções eficientes com ótima experiência para o usuá
 🌍 Explorando novas tecnologias e desenvolvendo soluções de software
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,nextjs,tailwind,graphql,go,rust,nestjs,py,aws" height="60" alt="tech logos" />
+  <img src="https://skillicons.dev/icons?i=mysql,aws,linux,kotlin,java,androidstudio,dart,firebase,flutter,postman" height="60" alt="tech logos" />
 </div>
 
 ---
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/paula-thamyres/" target="_blank">
+  <a href="https://www.linkedin.com/in/paula-femina-87044796/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-  </a>
-  <a href="https://twitter.com/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo" />
-  </a>
-  <a href="https://discord.com/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo" />
-  </a>
-  <a href="https://twitch.tv/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo" />
   </a>
 </div>
 
@@ -64,13 +55,13 @@ Lá você encontra resumos, desafios resolvidos, anotações de cursos e projeto
 
 ## Tecnologias e linguagens 💻
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,c,cpp,java,docker)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,c,cpp,java,kotlin,dart)](https://skillicons.dev)
 
 ### 🚀 Frameworks e bibliotecas
-[![My Skills](https://skillicons.dev/icons?i=react,nodejs,vite,spring,mysql,postgres)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=flutter,mysql,firebase)](https://skillicons.dev)
 
 ### 🛠️ Ferramentas de desenvolvimento
-[![My Skills](https://skillicons.dev/icons?i=git,github,figma,vscode,postman)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=git,github,androidstudio,vscode,postman)](https://skillicons.dev)
 
 ---
 
@@ -88,13 +79,13 @@ Lá você encontra resumos, desafios resolvidos, anotações de cursos e projeto
 </p>
 
 <p align="left">
-  <a href="mailto:seu.email@gmail.com" title="Gmail">
+  <a href="mailto:paula.arthamys@gmail.com" title="Gmail">
     <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://www.linkedin.com/in/paula-thamyres/" title="LinkedIn">
+  <a href="https://www.linkedin.com/in/paula-femina-87044796/" title="LinkedIn">
     <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://www.instagram.com/seuusuario.dev" title="Instagram">
+  <a href="https://www.instagram.com/paulathamy/" title="Instagram">
     <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
 </p>
