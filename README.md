@@ -1,6 +1,4 @@
-<h1 align="center">Hey 👋 What's Up?</h1>
-
-### Olá, eu sou a PaulaThamyres
+<h1 align="center">Olá, eu sou a PaulaThamyres</h1>
 
 👩‍💻 Desenvolvedora em formação, comprometida a criar soluções modernas, funcionais e com propósito. Atualmente estou me dedicando ao estudo de desenvolvimento Android com foco em Flutter e Android nativo, explorando o desenvolvimento de aplicativos móveis multiplataforma com Dart.  
 Meu objetivo é criar soluções eficientes com ótima experiência para o usuário. Aqui no meu GitHub, você encontrará projetos, testes e experimentos que refletem minha evolução nesse aprendizado.
