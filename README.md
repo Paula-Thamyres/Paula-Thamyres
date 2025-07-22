@@ -111,16 +111,3 @@ Lá você encontra resumos, desafios resolvidos, anotações de cursos e projeto
 </div>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:e61c9b,100:10002B"/>
-
-
-<script type="module">
-import { PacmanRenderer } from 'https://cdn.jsdelivr.net/npm/pacman-contribution-graph/dist/pacman-contribution-graph.min.js';
-const pr = new PacmanRenderer({
-    platform: 'github',
-    username: 'Paula-Thamyres',
-    canvas: document.getElementById('canvas'),
-    outputFormat: 'canvas',
-    gameTheme: 'github'
-});
-pr.start();
-</script>
