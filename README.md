@@ -20,6 +20,10 @@ Meu objetivo é criar soluções eficientes com ótima experiência para o usuá
   </a>
 </div>
 
+<p align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW1jMmdxbGszcjJoYmJkdXYxa2U4MWI0bTlxaG9icnh4cHk5Z2o0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hpXdHPfFI5wTABdDx9/giphy.gif" alt="GIF animado" />
+</p>
+
 ---
 
 ### 📈 Minhas contribuições no GitHub
