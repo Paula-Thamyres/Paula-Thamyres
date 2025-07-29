@@ -26,16 +26,16 @@ Meu objetivo é criar soluções eficientes com ótima experiência para o usuá
 
 ---
 
->### 📈 Minhas contribuições no GitHub
+### 📈 Minhas contribuições no GitHub
 
-><picture>
->  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Paula-Thamyres/Paula-Thamyres/output/pacman-contribution-graph-dark.svg">
->  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Paula-Thamyres/Paula-Thamyres/output/pacman-contribution-graph.svg">
->  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Paula-Thamyres/Paula-Thamyres/output/pacman-contribution-graph.svg">
-></picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Paula-Thamyres/Paula-Thamyres/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Paula-Thamyres/Paula-Thamyres/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Paula-Thamyres/Paula-Thamyres/output/pacman-contribution-graph.svg">
+</picture>
 
 
->---
+---
 
 ## ⭐ GitHub Stats
 
