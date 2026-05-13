@@ -1,4 +1,3 @@
-![Uploading image.png…]()
 <p align="center">
   <img width="994" height="349" alt="image" src="https://github.com/user-attachments/assets/1f914a94-b07f-4578-85ca-2f15a08067b4" />
 />
