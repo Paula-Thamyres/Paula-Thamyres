@@ -1,6 +1,3 @@
-# README GitHub — Paula-Thamyres
-
-```md
 <p align="center">
   <img src="SEU_BANNER_OU_GIF" width="100%"/>
 </p>
@@ -10,7 +7,7 @@
 </h1>
 
 <p align="center">
-  Android Developer • Kotlin • Jetpack Compose • Learning React.js
+Android Developer • Kotlin • Jetpack Compose • Learning React.js
 </p>
 
 <p align="center">
@@ -132,7 +129,7 @@
 </div>
 
 <p align="center">
-  ✨ React.js • Componentização • Hooks • APIs • Front-end moderno ✨
+✨ React.js • Componentização • Hooks • APIs • Front-end moderno ✨
 </p>
 
 ---
@@ -152,7 +149,6 @@
 ---
 
 <div align="center">
-
 # ✨ Projetos em Destaque
 
 </div>
@@ -173,7 +169,6 @@
 <td width="33%">
 
 ### ⚛️ React Journey
-
 - Componentização
 - Hooks
 - Responsividade
@@ -194,7 +189,6 @@ Construir aplicações modernas unindo Mobile + Front-end.
 ---
 
 <div align="center">
-
 # 🐍 Contributions
 
 </div>
@@ -212,7 +206,6 @@ Construir aplicações modernas unindo Mobile + Front-end.
 <a href="SEU_LINKEDIN">
   <img src="https://img.shields.io/badge/LinkedIn-8A2BE2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-
 <a href="mailto:SEUEMAIL">
   <img src="https://img.shields.io/badge/Gmail-8A2BE2?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
@@ -224,74 +217,3 @@ Construir aplicações modernas unindo Mobile + Front-end.
 <p align="center">
  ✨ "Transformando ideias em experiências digitais." ✨
 </p>
-```
-
-# COMO DEIXAR MAIS PARECIDO COM A IMAGEM
-
-## 1. Banner/GIF topo
-
-O topo da imagem é o que mais cria a estética.
-
-Sugestão:
-
-* usar exatamente a imagem cozy coding que você gostou
-* OU um GIF dark neon roxo
-
-Substitua:
-
-```md
-SEU_BANNER_OU_GIF
-```
-
-pelo link da imagem/GIF.
-
----
-
-## 2. Como subir a imagem
-
-No README:
-
-* clique em editar
-* arraste a imagem para dentro
-* GitHub vai gerar um link automaticamente
-* copie esse link
-* cole em:
-
-```html
-<img src="AQUI" width="100%"/>
-```
-
----
-
-## 3. Como salvar
-
-* role até o final
-* clique em:
-
-✅ Commit changes
-
----
-
-## 4. O que mais aproxima da estética da imagem
-
-✅ Tokyonight
-✅ GIF topo
-✅ typing animation
-✅ ícones roxos
-✅ sections centralizadas
-✅ snake animation
-✅ badges neon
-✅ dark mode
-
----
-
-## 5. Resultado esperado
-
-Seu perfil vai ficar:
-
-💜 Feminino tech
-🌌 Dark neon
-📱 Android developer moderna
-⚛️ Kotlin + React vibe
-✨ Cozy coding aesthetic
-🚀 Muito acima da média visualmente
