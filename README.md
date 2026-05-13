@@ -1,5 +1,7 @@
+![Uploading image.png…]()
 <p align="center">
-  <img src="SEU_BANNER_OU_GIF" width="100%"/>
+  <img width="994" height="349" alt="image" src="https://github.com/user-attachments/assets/1f914a94-b07f-4578-85ca-2f15a08067b4" />
+/>
 </p>
 
 <h1 align="center">
