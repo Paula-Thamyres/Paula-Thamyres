@@ -208,19 +208,19 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 <tr>
 
 <td width="25%" align="center">
-  <a href="https://linkedin.com/in/paulasilva">
+  <a href="https://www.linkedin.com/in/paula-femina-87044796/">
     <img src="https://img.shields.io/badge/LinkedIn-%2Fin%2Fpaulasilva-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </td>
 
 <td width="25%" align="center">
-  <a href="mailto:paula.silva.dev@gmail.com">
+  <a href="mailto:paula.arthamys@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-paula.silva.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </td>
 
 <td width="25%" align="center">
-  <a href="https://instagram.com/paula.dev">
+  <a href="https://www.instagram.com/paulathamy/">
     <img src="https://img.shields.io/badge/Instagram-%40paula.dev-DD2A7B?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </td>
