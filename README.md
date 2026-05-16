@@ -3,13 +3,13 @@
   <img width="994" height="349" alt="banner" src="https://github.com/user-attachments/assets/1f914a94-b07f-4578-85ca-2f15a08067b4" />
 </p>
 
-<br/>
+<br/><br/>
 
 <!-- ══════════════ INTRO ══════════════ -->
 
 ## 👋 Olá, eu sou
 
-<img src="https://readme-typing-svg.demolab.com?font=Sora&weight=800&size=52&pause=1000&color=9B6DFF&width=480&lines=Paula+Femina" alt="Paula Femina" />
+<img src="https://readme-typing-svg.demolab.com?font=Sora&weight=800&size=56&pause=1000&color=9B6DFF&width=520&height=70&lines=Paula+Femina" alt="Paula Femina" />
 
 <br/>
 
@@ -39,7 +39,7 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 <br/>
 
 <div align="center">
-  <pre>> Desenvolvendo soluções. Criando experiências. Evoluindo sempre.                                    &lt;/&gt;</pre>
+  <pre>> Desenvolvendo soluções. Criando experiências. Evoluindo sempre.                          &lt;/&gt;</pre>
 </div>
 
 <br/>
@@ -50,32 +50,39 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 <tr>
 
 <!-- ── Tecnologias (esquerda ~70%) ── -->
-<td width="70%" valign="top">
+<td width="68%" valign="top">
 
 **🚀 TECNOLOGIAS & FERRAMENTAS**
 
 &nbsp;
 
-**Mobile Development**
+<table border="0" cellspacing="0" cellpadding="8">
+<tr>
+<td valign="top">
 
-<img src="https://skillicons.dev/icons?i=kotlin,android" height="38" alt="Kotlin, Android" />&nbsp;<img src="https://img.shields.io/badge/-Jetpack-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" height="28" alt="Jetpack Compose"/>
+<sub><b>Mobile Development</b></sub><br/>
+<img src="https://skillicons.dev/icons?i=kotlin,android" height="36" alt="Kotlin Android" />&nbsp;<img src="https://img.shields.io/badge/-Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" height="24" alt="Jetpack Compose"/>
 
-<br/><br/>
+</td>
+<td valign="top">
 
-**Front-end Journey**
+<sub><b>Front-end Journey</b></sub><br/>
+<img src="https://skillicons.dev/icons?i=react,js,html,css" height="36" alt="React JS HTML CSS" />
 
-<img src="https://skillicons.dev/icons?i=react,js,html,css" height="38" alt="React, JavaScript, HTML5, CSS3" />
+</td>
+<td valign="top">
 
-<br/><br/>
+<sub><b>Tools</b></sub><br/>
+<img src="https://skillicons.dev/icons?i=androidstudio,vscode,git,figma" height="36" alt="Android Studio VS Code Git Figma" />
 
-**Tools**
-
-<img src="https://skillicons.dev/icons?i=androidstudio,vscode,git,figma" height="38" alt="Android Studio, VS Code, Git, Figma" />
+</td>
+</tr>
+</table>
 
 </td>
 
-<!-- ── Atualmente Estudando (direita ~30%) ── -->
-<td width="30%" valign="top">
+<!-- ── Atualmente Estudando (direita ~32%) ── -->
+<td width="32%" valign="top">
 
 **🌱 ATUALMENTE ESTUDANDO**
 
@@ -98,27 +105,29 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 
 **📊 GITHUB STATS**
 
+<br/>
+
 <table>
 <tr>
 
-<!-- ── Painel 1 – Grade Card ── -->
-<td width="30%" valign="top" align="center">
+<!-- ── Painel 1 – Stats + Grade ── -->
+<td width="34%" align="center" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Paula-Thamyres&show_icons=true&rank_icon=github&hide_border=true&bg_color=13131f&title_color=9b6dff&text_color=e8e8f0&icon_color=ff6eb4&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=Paula-Thamyres&show_icons=true&rank_icon=github&hide_border=true&bg_color=13131f&title_color=9b6dff&text_color=e8e8f0&icon_color=ff6eb4&include_all_commits=true&count_private=true&cache_seconds=1800" alt="GitHub Stats" />
 
 </td>
 
-<!-- ── Painel 2 – Gráfico de Atividade ── -->
-<td width="42%" valign="top" align="center">
+<!-- ── Painel 2 – Streak / Atividade ── -->
+<td width="36%" align="center" valign="top">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Paula-Thamyres&bg_color=13131f&color=b98aff&line=9b6dff&point=ff6eb4&area=true&hide_border=true" alt="Gráfico de Atividade" />
+<img src="https://streak-stats.demolab.com?user=Paula-Thamyres&hide_border=true&background=13131f&ring=9b6dff&fire=ff6eb4&currStreakLabel=b98aff&sideLabels=e8e8f0&dates=7a7a9a&stroke=2a2a45&currStreakNum=e8e8f0&sideNums=9b6dff" alt="GitHub Streak" />
 
 </td>
 
 <!-- ── Painel 3 – Linguagens ── -->
-<td width="28%" valign="top" align="center">
+<td width="30%" align="center" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paula-Thamyres&layout=compact&langs_count=5&hide_border=true&bg_color=13131f&title_color=9b6dff&text_color=e8e8f0" alt="Linguagens mais usadas" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paula-Thamyres&layout=compact&langs_count=5&hide_border=true&bg_color=13131f&title_color=9b6dff&text_color=e8e8f0&cache_seconds=1800" alt="Linguagens mais usadas" />
 
 </td>
 
@@ -131,14 +140,17 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 
 **✨ PROJETOS EM DESTAQUE**
 
+<br/>
+
 <table>
 <tr>
 
 <td width="25%" valign="top">
 
-**📱 MyTasks App**
+**📱 MyTasks App**<br/>
+<sub>Aplicativo de tarefas com Jetpack Compose</sub>
 
-Aplicativo de tarefas com Jetpack Compose
+<br/>
 
 <img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
 &nbsp;⭐ 128 &nbsp;🍴 34
@@ -147,9 +159,10 @@ Aplicativo de tarefas com Jetpack Compose
 
 <td width="25%" valign="top">
 
-**🎬 Movie App**
+**🎬 Movie App**<br/>
+<sub>App de filmes com API, Compose e Clean Architecture</sub>
 
-App de filmes com API, Compose e Clean Architecture
+<br/>
 
 <img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
 &nbsp;⭐ 96 &nbsp;🍴 21
@@ -158,9 +171,10 @@ App de filmes com API, Compose e Clean Architecture
 
 <td width="25%" valign="top">
 
-**🌤️ Weather App**
+**🌤️ Weather App**<br/>
+<sub>App de clima com integração de API e UI moderna</sub>
 
-App de clima com integração de API e UI moderna
+<br/>
 
 <img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
 &nbsp;⭐ 74 &nbsp;🍴 18
@@ -169,9 +183,10 @@ App de clima com integração de API e UI moderna
 
 <td width="25%" valign="top">
 
-**⚛️ Portfolio React**
+**⚛️ Portfolio React**<br/>
+<sub>Meu portfólio pessoal feito com React.js</sub>
 
-Meu portfólio pessoal feito com React.js
+<br/>
 
 <img src="https://img.shields.io/badge/-JavaScript-F0DB4F?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
 &nbsp;⭐ 53 &nbsp;🍴 12
@@ -187,36 +202,38 @@ Meu portfólio pessoal feito com React.js
 
 **✉️ VAMOS NOS CONECTAR?**
 
+<br/>
+
 <table>
 <tr>
 
 <td width="25%" align="center">
-<a href="https://linkedin.com/in/paulasilva">
-  <img src="https://img.shields.io/badge/LinkedIn-/in%2Fpaulasilva-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" />
-</a>
+  <a href="https://linkedin.com/in/paulasilva">
+    <img src="https://img.shields.io/badge/LinkedIn-%2Fin%2Fpaulasilva-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
 </td>
 
 <td width="25%" align="center">
-<a href="mailto:paula.silva.dev@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-paula.silva.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Gmail" />
-</a>
+  <a href="mailto:paula.silva.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-paula.silva.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
 </td>
 
 <td width="25%" align="center">
-<a href="https://instagram.com/paula.dev">
-  <img src="https://img.shields.io/badge/Instagram-%40paula.dev-DD2A7B?style=for-the-badge&logo=instagram&logoColor=white&labelColor=DD2A7B" alt="Instagram" />
-</a>
+  <a href="https://instagram.com/paula.dev">
+    <img src="https://img.shields.io/badge/Instagram-%40paula.dev-DD2A7B?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
 </td>
 
 <td width="25%" align="center">
-<a href="#">
-  <img src="https://img.shields.io/badge/Portfólio-Em_breve-9B6DFF?style=for-the-badge&logo=sparkles&logoColor=white&labelColor=9B6DFF" alt="Portfólio" />
-</a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Portfólio-Em%20breve-9B6DFF?style=for-the-badge&logo=react&logoColor=white" alt="Portfólio" />
+  </a>
 </td>
 
 </tr>
 </table>
 
-<br/>
+<br/><br/>
 
 <p align="center">✦ &nbsp;<em>"Transformando ideias em experiências digitais."</em>&nbsp; ✦</p>
