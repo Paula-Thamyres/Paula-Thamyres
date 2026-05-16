@@ -184,7 +184,7 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 <td width="25%" valign="top">
 
 **⚛️ Portfolio React**<br/>
-<sub>Meu portfólio pessoal feito com React.js</sub>
+<sub>Meu portfólio pessoal feito com React.js moderno</sub>
 
 <br/>
 
