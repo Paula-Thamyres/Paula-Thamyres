@@ -6,9 +6,6 @@
 <br/><br/>
 
 <!-- ══════════════ INTRO ══════════════ -->
-<div></div>
-<p></p>
-<br/>
 
 ## 👋 Olá, eu sou
 
@@ -52,7 +49,7 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 <table>
 <tr>
 
-<!-- ── Tecnologias (esquerda ~70%) ── -->
+<!-- ── Tecnologias (esquerda ~68%) ── -->
 <td width="68%" valign="top">
 
 **🚀 TECNOLOGIAS & FERRAMENTAS**
@@ -113,24 +110,24 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 <table>
 <tr>
 
-<!-- ── Painel 1 – Stats + Grade ── -->
-<td width="34%" align="center" valign="top">
+<!-- ── Painel 1 – Stats Card ── -->
+<td width="33%" align="center" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Paula-Thamyres&show_icons=true&rank_icon=github&hide_border=true&bg_color=13131f&title_color=9b6dff&text_color=e8e8f0&icon_color=ff6eb4&include_all_commits=true&count_private=true&cache_seconds=1800" alt="GitHub Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Paula-Thamyres&theme=tokyonight" alt="Stats" />
 
 </td>
 
-<!-- ── Painel 2 – Streak / Atividade ── -->
+<!-- ── Painel 2 – Streak ── -->
 <td width="36%" align="center" valign="top">
 
-<img src="https://streak-stats.demolab.com?user=Paula-Thamyres&hide_border=true&background=13131f&ring=9b6dff&fire=ff6eb4&currStreakLabel=b98aff&sideLabels=e8e8f0&dates=7a7a9a&stroke=2a2a45&currStreakNum=e8e8f0&sideNums=9b6dff" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=Paula-Thamyres&hide_border=true&background=1a1b27&ring=9b6dff&fire=ff6eb4&currStreakLabel=b98aff&sideLabels=e8e8f0&dates=7a7a9a&stroke=2a2a45&currStreakNum=e8e8f0&sideNums=9b6dff" alt="GitHub Streak" />
 
 </td>
 
 <!-- ── Painel 3 – Linguagens ── -->
-<td width="30%" align="center" valign="top">
+<td width="31%" align="center" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paula-Thamyres&layout=compact&langs_count=5&hide_border=true&bg_color=13131f&title_color=9b6dff&text_color=e8e8f0&cache_seconds=1800" alt="Linguagens mais usadas" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Paula-Thamyres&theme=tokyonight" alt="Linguagens mais usadas" />
 
 </td>
 
