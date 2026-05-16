@@ -1,75 +1,77 @@
-<p align="center">
-  <img width="994" height="349" alt="image" src="https://github.com/user-attachments/assets/1f914a94-b07f-4578-85ca-2f15a08067b4" />
-/>
-</p>
-
-<h1 align="center">
-  💜 Hi, I'm Paula Silva 💜
-</h1>
-
-<p align="center">
-Android Developer • Kotlin • Jetpack Compose • Learning React.js
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=C792EA&center=true&vCenter=true&width=800&lines=Android+Developer;Kotlin+%7C+Jetpack+Compose;Learning+React.js;Building+Modern+Experiences;Always+Learning+New+Technologies" />
-</p>
+<!-- BANNER -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=9b6dff&height=200&section=header&text=keep%20coding%20%E2%99%A5&fontSize=42&fontColor=ff6eb4&fontAlignY=35&desc=Desenvolvendo%20soluções.%20Criando%20experiências.%20Evoluindo%20sempre.&descSize=14&descAlignY=60&descColor=b98aff" width="100%"/>
+</div>
 
 ---
 
-<div align="center">
+## 👋 Olá, eu sou
 
-## 💜 Sobre mim
+# <span>Paula Femina</span>
 
-</div>
-
-<table align="center">
+<table>
 <tr>
-<td width="50%">
+<td width="55%">
 
-### 👩‍💻 Desenvolvedora Mobile Android
+Desenvolvedora Android apaixonada por tecnologia, interfaces modernas e experiências mobile intuitivas.
 
-🚀 Apaixonada por tecnologia, interfaces modernas e experiências intuitivas.
+Atualmente atuo com Kotlin e Jetpack Compose, criando aplicações Android com foco em arquitetura limpa, boas práticas e interfaces responsivas.
 
-📱 Atualmente trabalhando com:
+Agora estou expandindo meus conhecimentos para o universo Front-end, estudando React.js para construir experiências cada vez mais completas entre mobile e web. 💜
 
-- Kotlin
-- Jetpack Compose
-- Android Development
-- Clean Architecture
-- APIs REST
+</td>
+<td width="45%">
 
-⚡ Expandindo conhecimentos em:
+💻 Desenvolvedora Mobile Android  
+📱 Experiência com Kotlin & Jetpack Compose  
+🎨 Interesse em UI/UX e interfaces modernas  
+⚡ Explorando o ecossistema Front-end com React.js  
+📚 Sempre aprendendo novas tecnologias  
 
-- React.js
-- Front-end moderno
-- Componentização
-- Hooks
-- UI Responsiva
+</td>
+</tr>
+</table>
 
-🎨 Interesse em UI/UX e experiências visuais modernas.
+```bash
+> Desenvolvendo soluções. Criando experiências. Evoluindo sempre.          </>
+```
 
-📚 Sempre aprendendo novas tecnologias.
+---
+
+## 🚀 TECNOLOGIAS & FERRAMENTAS
+
+<table>
+<tr>
+
+<td valign="top" width="33%">
+
+**Mobile Development**
+
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 
 </td>
 
-<td width="50%">
+<td valign="top" width="33%">
 
-<div align="center">
+**Front-end Journey**
 
-### ✨ Current Focus
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-2965F1?style=for-the-badge&logo=css3&logoColor=white)
 
-💜 Desenvolvimento Mobile
+</td>
 
-⚛️ Front-end com React.js
+<td valign="top" width="33%">
 
-🎨 UI/UX moderno
+**Tools**
 
-🚀 Aplicações performáticas
-
-📱 Experiências intuitivas
-
-</div>
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05030?style=for-the-badge&logo=git&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-A259FF?style=for-the-badge&logo=figma&logoColor=white)
 
 </td>
 </tr>
@@ -77,146 +79,105 @@ Android Developer • Kotlin • Jetpack Compose • Learning React.js
 
 ---
 
+## 🌱 ATUALMENTE ESTUDANDO
+
+- 🟣 React.js
+- 🟣 Componentização
+- 🟣 Hooks
+- 🟣 Consumo de APIs
+- 🟣 Desenvolvimento Front-end moderno
+
+---
+
+## 📊 GITHUB STATS
+
 <div align="center">
-
-# 🚀 Tecnologias & Ferramentas
-
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Paula-Thamyres&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&bg_color=0d0d14&title_color=9b6dff&text_color=e8e8f0&icon_color=ff6eb4&border_color=2a2a45"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paula-Thamyres&layout=compact&langs_count=7&theme=tokyonight&bg_color=0d0d14&title_color=9b6dff&text_color=e8e8f0&border_color=2a2a45"/>
 </div>
 
-<table align="center">
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Paula-Thamyres&theme=tokyonight&background=0d0d14&ring=9b6dff&fire=ff6eb4&currStreakLabel=b98aff&border=2a2a45" />
+</div>
+
+### Linguagens mais usadas
+
+| Linguagem  | Uso    |
+|------------|--------|
+| 🟣 Kotlin     | 52.3%  |
+| 🟠 Java       | 18.7%  |
+| 🟡 JavaScript | 12.8%  |
+| 🔵 TypeScript | 7.6%   |
+| ⬜ Other      | 8.6%   |
+
+---
+
+## ✨ PROJETOS EM DESTAQUE
+
+<table>
 <tr>
-<td align="center" width="33%">
 
-### 📱 Mobile Development
+<td width="25%" valign="top">
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,firebase" />
-</p>
+### 📱 MyTasks App
+Aplicativo de tarefas com Jetpack Compose
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" />
-</p>
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+⭐ 128 &nbsp; 🍴 34
 
 </td>
 
-<td align="center" width="33%">
+<td width="25%" valign="top">
 
-### ⚛️ Front-end Journey
+### 🎬 Movie App
+App de filmes com API, Compose e Clean Architecture
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,js,html,css" />
-</p>
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+⭐ 96 &nbsp; 🍴 21
+
+</td>
+
+<td width="25%" valign="top">
+
+### 🌤️ Weather App
+App de clima com integração de API e UI moderna
+
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+⭐ 74 &nbsp; 🍴 18
 
 </td>
 
-<td align="center" width="33%">
+<td width="25%" valign="top">
 
-### 🛠️ Tools
+### ⚛️ Portfolio React
+Meu portfólio pessoal feito com React.js
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,vscode,figma" />
-</p>
+![JavaScript](https://img.shields.io/badge/JavaScript-F0DB4F?style=flat-square&logo=javascript&logoColor=black)
+⭐ 53 &nbsp; 🍴 12
 
 </td>
+
 </tr>
 </table>
 
 ---
 
-<div align="center">
-
-# 🌱 Atualmente Estudando
-
-</div>
-
-<p align="center">
-✨ React.js • Componentização • Hooks • APIs • Front-end moderno ✨
-</p>
-
----
+## ✉️ VAMOS NOS CONECTAR?
 
 <div align="center">
 
-# 📊 GitHub Stats
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/paulasilva)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:paula.silva.dev@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-DD2A7B?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/paula.dev)
+[![Portfolio](https://img.shields.io/badge/Portfólio-9b6dff?style=for-the-badge&logo=react&logoColor=white)](#)
+
+<br/>
+
+✦ *"Transformando ideias em experiências digitais."* ✦
 
 </div>
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Paula-Thamyres&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=C792EA&icon_color=C792EA&text_color=ffffff"/>
-
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paula-Thamyres&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=C792EA&text_color=ffffff"/>
-</p>
-
----
-
+<!-- FOOTER -->
 <div align="center">
-# ✨ Projetos em Destaque
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=9b6dff&height=100&section=footer" width="100%"/>
 </div>
-
-<table align="center">
-<tr>
-<td width="33%">
-
-### 📱 Android Apps
-
-- Apps com Jetpack Compose
-- Consumo de APIs
-- UI moderna
-- Arquitetura limpa
-
-</td>
-
-<td width="33%">
-
-### ⚛️ React Journey
-- Componentização
-- Hooks
-- Responsividade
-- Front-end moderno
-
-</td>
-
-<td width="33%">
-
-### 🚀 Objetivo
-
-Construir aplicações modernas unindo Mobile + Front-end.
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-# 🐍 Contributions
-
-</div>
-
-<p align="center">
-  <img src="https://github.com/Paula-Thamyres/Paula-Thamyres/blob/output/github-contribution-grid-snake.svg" />
-</p>
-
----
-
-<div align="center">
-
-# 📫 Vamos nos conectar?
-
-<a href="SEU_LINKEDIN">
-  <img src="https://img.shields.io/badge/LinkedIn-8A2BE2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:SEUEMAIL">
-  <img src="https://img.shields.io/badge/Gmail-8A2BE2?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-</div>
-
----
-
-<p align="center">
- ✨ "Transformando ideias em experiências digitais." ✨
-</p>
-
-
