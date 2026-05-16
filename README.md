@@ -1,7 +1,7 @@
-<!-- BANNER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=9b6dff&height=200&section=header&text=keep%20coding%20%E2%99%A5&fontSize=42&fontColor=ff6eb4&fontAlignY=35&desc=Desenvolvendo%20soluções.%20Criando%20experiências.%20Evoluindo%20sempre.&descSize=14&descAlignY=60&descColor=b98aff" width="100%"/>
-</div>
+<p align="center">
+  <img width="994" height="349" alt="image" src="https://github.com/user-attachments/assets/1f914a94-b07f-4578-85ca-2f15a08067b4" />
+/>
+</p>
 
 ---
 
