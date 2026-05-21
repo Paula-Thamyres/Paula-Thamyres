@@ -7,6 +7,7 @@
 
 <!-- ══════════════ INTRO ══════════════ -->
 
+
 ## 👋 Olá, eu sou
 
 <img src="https://readme-typing-svg.demolab.com?font=Sora&weight=800&size=56&pause=1000&color=9B6DFF&width=520&height=70&lines=Paula+Femina" alt="Paula Femina" />
