@@ -216,7 +216,7 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 
 <td width="25%" align="center">
   <a href="https://www.instagram.com/paulathamy/">
-    <img src="https://img.shields.io/badge/Instagram-%40paula.dev-DD2A7B?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-%40paulathamy-DD2A7B?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </td>
 
