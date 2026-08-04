@@ -203,8 +203,8 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 <tr>
 
 <td width="25%" align="center">
-  <a href="https://www.linkedin.com/in/paula-femina-87044796/">
-    <img src="https://img.shields.io/badge/LinkedIn-%2Fin%2Fpaulasilva-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/paula-femina/">
+    <img src="https://img.shields.io/badge/LinkedIn-%40paula--femina-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </td>
 
