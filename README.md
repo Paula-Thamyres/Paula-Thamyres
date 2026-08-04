@@ -210,7 +210,7 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 
 <td width="25%" align="center">
   <a href="mailto:paula.arthamys@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-paula.silva.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-paula.arthamys@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </td>
 
