@@ -75,55 +75,56 @@ def pontuar(estado, usuario, jogo, pontos):
 
 # ----------------------------------------------------------------------------- imagens fixas
 def svg_banner():
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="600" height="96" viewBox="0 0 600 96">
 <defs>
-  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1033"/><stop offset="1" stop-color="#3b1a63"/></linearGradient>
-  <filter id="brilho" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <pattern id="p" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#ffffff" opacity="0.08"/></pattern>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1033"/><stop offset="1" stop-color="#2f1754"/></linearGradient>
+  <filter id="brilho" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="p" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="0.8" fill="#ffffff" opacity="0.08"/></pattern>
 </defs>
-<rect width="900" height="150" rx="18" fill="url(#g)"/>
-<rect width="900" height="150" rx="18" fill="url(#p)"/>
-<text x="40" y="74" font-family="{FONTE}" font-size="42" font-weight="800" letter-spacing="3" fill="#ffffff" filter="url(#brilho)">ARCADE <tspan fill="{ROSA}">DA PAULA</tspan></text>
-<text x="42" y="108" font-family="{MONO}" font-size="16" fill="{LILAS}">3 jogos · clique, envie a issue e o robô joga com você</text>
-<g transform="translate(620 32)">
-  <rect width="78" height="86" rx="14" fill="{ROSA}"/><text x="39" y="60" text-anchor="middle" font-family="{FONTE}" font-size="44" font-weight="800" fill="#3b0a2a">?</text>
-  <text x="39" y="104" text-anchor="middle" font-family="{MONO}" font-size="11" fill="{ROSA_CLARO}">QUIZ</text>
+<rect x="0.5" y="0.5" width="599" height="95" rx="14" fill="url(#g)" stroke="{ROXO}" stroke-opacity="0.35"/>
+<rect width="600" height="96" rx="14" fill="url(#p)"/>
+<text x="26" y="47" font-family="{FONTE}" font-size="24" font-weight="600" letter-spacing="3" fill="#ffffff" filter="url(#brilho)">ARCADE <tspan fill="{ROSA}">DA PAULA</tspan></text>
+<text x="27" y="70" font-family="{MONO}" font-size="11.5" fill="{LILAS}">3 jogos · clique, envie a issue e o robô joga com você</text>
+<g transform="translate(424 20)">
+  <rect width="42" height="46" rx="10" fill="{ROSA}" fill-opacity="0.9"/>
+  <text x="21" y="31" text-anchor="middle" font-family="{FONTE}" font-size="22" font-weight="700" fill="#3b0a2a">?</text>
+  <text x="21" y="60" text-anchor="middle" font-family="{MONO}" font-size="8" fill="{ROSA_CLARO}">QUIZ</text>
 </g>
-<g transform="translate(712 32)">
-  <rect x="8" y="-4" width="62" height="86" rx="12" fill="{ROXO_ESC}" transform="rotate(8 39 43)"/>
-  <rect width="78" height="86" rx="14" fill="{ROXO}"/><text x="39" y="56" text-anchor="middle" font-family="{MONO}" font-size="24" font-weight="700" fill="#ffffff">&lt;/&gt;</text>
-  <text x="39" y="104" text-anchor="middle" font-family="{MONO}" font-size="11" fill="{LILAS}">MEMÓRIA</text>
+<g transform="translate(476 20)">
+  <rect width="42" height="46" rx="10" fill="{ROXO}" fill-opacity="0.9"/>
+  <text x="21" y="28" text-anchor="middle" font-family="{MONO}" font-size="12" font-weight="700" fill="#ffffff">&lt;/&gt;</text>
+  <text x="21" y="60" text-anchor="middle" font-family="{MONO}" font-size="8" fill="{LILAS}">MEMÓRIA</text>
 </g>
-<g transform="translate(804 32)">
-  <rect width="78" height="86" rx="14" fill="{CIANO}"/>
-  <circle cx="39" cy="28" r="10" fill="#0e4a57"/><path d="M27 66 Q29 46 39 42 Q49 46 51 66 Z" fill="#0e4a57"/><rect x="23" y="64" width="32" height="8" rx="4" fill="#0e4a57"/>
-  <text x="39" y="104" text-anchor="middle" font-family="{MONO}" font-size="11" fill="#a5f3fc">XADREZ</text>
+<g transform="translate(528 20)">
+  <rect width="42" height="46" rx="10" fill="{CIANO}" fill-opacity="0.9"/>
+  <circle cx="21" cy="15" r="5" fill="#0e4a57"/><path d="M15 35 Q16 25 21 23 Q26 25 27 35 Z" fill="#0e4a57"/><rect x="13" y="34" width="16" height="4" rx="2" fill="#0e4a57"/>
+  <text x="21" y="60" text-anchor="middle" font-family="{MONO}" font-size="8" fill="#a5f3fc">XADREZ</text>
 </g>
 </svg>'''
 
 
 def svg_opcao(letra, texto):
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="380" height="60" viewBox="0 0 380 60">
-<rect x="1" y="1" width="378" height="58" rx="14" fill="#1f1633" stroke="{ROXO}" stroke-width="2"/>
-<circle cx="32" cy="30" r="17" fill="{ROSA}"/>
-<text x="32" y="36" text-anchor="middle" font-family="{FONTE}" font-size="17" font-weight="800" fill="#3b0a2a">{letra}</text>
-<text x="62" y="37" font-family="{MONO}" font-size="18" font-weight="600" fill="#f5f3ff">{esc(texto)}</text>
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="276" height="40" viewBox="0 0 276 40">
+<rect x="0.75" y="0.75" width="274.5" height="38.5" rx="10" fill="#1a1230" stroke="{ROXO}" stroke-opacity="0.7" stroke-width="1.2"/>
+<circle cx="21" cy="20" r="10" fill="{ROSA}"/>
+<text x="21" y="24" text-anchor="middle" font-family="{FONTE}" font-size="11" font-weight="700" fill="#3b0a2a">{letra}</text>
+<text x="40" y="24.5" font-family="{MONO}" font-size="13" font-weight="500" fill="#f5f3ff">{esc(texto)}</text>
 </svg>'''
 
 
 def svg_pergunta(num, total, p):
     linhas = p.get("codigo", [])
-    h = 112 + len(linhas) * 26 + (22 if linhas else 0)
+    h = 78 + (len(linhas) * 20 + 30 if linhas else 0)
     codigo = ""
     if linhas:
-        codigo = f'<rect x="32" y="96" width="696" height="{len(linhas) * 26 + 18}" rx="10" fill="#0b0f17"/>'
+        codigo = f'<rect x="22" y="66" width="516" height="{len(linhas) * 20 + 16}" rx="8" fill="#0b0f17"/>'
         for i, linha in enumerate(linhas):
-            codigo += f'<text x="50" y="{122 + i * 26}" font-family="{MONO}" font-size="17" fill="{CIANO}">{esc(linha)}</text>'
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="760" height="{h}" viewBox="0 0 760 {h}">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1236"/><stop offset="1" stop-color="#2a1450"/></linearGradient></defs>
-<rect width="760" height="{h}" rx="18" fill="url(#g)"/>
-<text x="32" y="40" font-family="{MONO}" font-size="13" font-weight="700" letter-spacing="2" fill="{ROSA}">PERGUNTA {num:02d} DE {total:02d} · JAVASCRIPT</text>
-<text x="32" y="76" font-family="{FONTE}" font-size="25" font-weight="700" fill="#ffffff">{esc(p["pergunta"])}</text>
+            codigo += f'<text x="36" y="{86 + i * 20}" font-family="{MONO}" font-size="13" fill="{CIANO}">{esc(linha)}</text>'
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="560" height="{h}" viewBox="0 0 560 {h}">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1236"/><stop offset="1" stop-color="#271446"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="559" height="{h - 1}" rx="14" fill="url(#g)" stroke="{ROXO}" stroke-opacity="0.35"/>
+<text x="22" y="28" font-family="{MONO}" font-size="10" font-weight="600" letter-spacing="1.5" fill="{ROSA}">PERGUNTA {num:02d} DE {total:02d} · JAVASCRIPT</text>
+<text x="22" y="52" font-family="{FONTE}" font-size="17" font-weight="600" fill="#ffffff">{esc(p["pergunta"])}</text>
 {codigo}
 </svg>'''
 
@@ -221,22 +222,22 @@ def svg_tabuleiro(board, ultimo=None):
 # ----------------------------------------------------------------------------- ranking
 def svg_ranking(ranking):
     top = sorted(ranking.items(), key=lambda kv: (-kv[1]["pontos"], kv[0].lower()))[:8]
-    h = 112 + max(1, len(top)) * 46
-    p = [f'<rect width="760" height="{h}" rx="18" fill="#1c1236"/>',
-         f'<text x="32" y="46" font-family="{FONTE}" font-size="24" font-weight="800" letter-spacing="2" fill="#ffffff">RANKING DO <tspan fill="{ROSA}">ARCADE</tspan></text>',
-         f'<text x="32" y="74" font-family="{MONO}" font-size="13" fill="{LILAS}">quiz certo +2 · par na memória +1 · jogada no xadrez +1 · xeque-mate +5</text>']
+    h = 78 + max(1, len(top)) * 36
+    p = [f'<rect x="0.5" y="0.5" width="559" height="{h - 1}" rx="14" fill="#1c1236" stroke="{ROXO}" stroke-opacity="0.35"/>',
+         f'<text x="22" y="32" font-family="{FONTE}" font-size="16" font-weight="600" letter-spacing="2" fill="#ffffff">RANKING DO <tspan fill="{ROSA}">ARCADE</tspan></text>',
+         f'<text x="22" y="52" font-family="{MONO}" font-size="10" fill="{LILAS}">quiz certo +2 · par na memória +1 · jogada no xadrez +1 · xeque-mate +5</text>']
     if not top:
-        p.append(f'<text x="32" y="124" font-family="{FONTE}" font-size="17" fill="#e9d5ff">Ninguém jogou ainda. Seja a primeira pessoa a pontuar!</text>')
+        p.append(f'<text x="22" y="90" font-family="{FONTE}" font-size="13" fill="#e9d5ff">Ninguém jogou ainda. Seja a primeira pessoa a pontuar!</text>')
     medalhas = ["#fde047", "#e5e7eb", "#fdba74"]
     for i, (nome, r) in enumerate(top):
-        y = 96 + i * 46
-        p.append(f'<rect x="24" y="{y}" width="712" height="38" rx="10" fill="{"#2e1a52" if i == 0 else "#241640"}"/>')
+        y = 66 + i * 36
+        p.append(f'<rect x="16" y="{y}" width="528" height="30" rx="8" fill="{"#2a1850" if i == 0 else "#22143d"}"/>')
         cor = medalhas[i] if i < 3 else ROXO
-        p.append(f'<circle cx="48" cy="{y + 19}" r="13" fill="{cor}"/><text x="48" y="{y + 24}" text-anchor="middle" font-family="{FONTE}" font-size="13" font-weight="800" fill="#1c1236">{i + 1}</text>')
-        p.append(f'<text x="74" y="{y + 25}" font-family="{FONTE}" font-size="17" font-weight="600" fill="#ffffff">{esc(nome)}</text>')
-        p.append(f'<text x="420" y="{y + 25}" font-family="{MONO}" font-size="13" fill="{LILAS}">quiz {r["quiz"]} · pares {r["memoria"]} · lances {r["xadrez"]}</text>')
-        p.append(f'<text x="716" y="{y + 26}" text-anchor="end" font-family="{FONTE}" font-size="20" font-weight="800" fill="{ROSA}">{r["pontos"]} pts</text>')
-    return f'<svg xmlns="http://www.w3.org/2000/svg" width="760" height="{h}" viewBox="0 0 760 {h}">{"".join(p)}</svg>'
+        p.append(f'<circle cx="34" cy="{y + 15}" r="9" fill="{cor}"/><text x="34" y="{y + 19}" text-anchor="middle" font-family="{FONTE}" font-size="10" font-weight="700" fill="#1c1236">{i + 1}</text>')
+        p.append(f'<text x="52" y="{y + 20}" font-family="{FONTE}" font-size="13" font-weight="500" fill="#ffffff">{esc(nome)}</text>')
+        p.append(f'<text x="300" y="{y + 19.5}" font-family="{MONO}" font-size="10.5" fill="{LILAS}">quiz {r["quiz"]} · pares {r["memoria"]} · lances {r["xadrez"]}</text>')
+        p.append(f'<text x="530" y="{y + 20}" text-anchor="end" font-family="{FONTE}" font-size="14" font-weight="700" fill="{ROSA}">{r["pontos"]} {"pt" if r["pontos"] == 1 else "pts"}</text>')
+    return f'<svg xmlns="http://www.w3.org/2000/svg" width="560" height="{h}" viewBox="0 0 560 {h}">{"".join(p)}</svg>'
 
 
 # ----------------------------------------------------------------------------- estado inicial
@@ -350,12 +351,12 @@ def bloco_quiz(estado):
     botoes = []
     for k in range(4):
         letra = "ABCD"[k]
-        botoes.append(f'<a href="{link_issue(f"arcade|quiz|{letra}")}"><img src="arcade/out/opcao-{letra}-{estado['versao']}.svg" width="49%" alt="{letra}) {esc(p["opcoes"][k])}"></a>')
+        botoes.append(f'<a href="{link_issue(f"arcade|quiz|{letra}")}"><img src="arcade/out/opcao-{letra}-{estado['versao']}.svg" width="276" alt="{letra}) {esc(p["opcoes"][k])}"></a>')
     linhas = [
-        f'<p align="center"><img src="arcade/out/pergunta-{estado['versao']}.svg" width="100%" alt="Pergunta {n + 1}: {esc(p["pergunta"])}"></p>',
+        f'<p align="center"><img src="arcade/out/pergunta-{estado['versao']}.svg" width="560" alt="Pergunta {n + 1}: {esc(p["pergunta"])}"></p>',
         f'<p align="center">{botoes[0]} {botoes[1]}<br>{botoes[2]} {botoes[3]}</p>',
         "",
-        f'<p align="center">{q["ultimo"] or "Clique na alternativa que você acha certa 👆"}<br><sub>{q["respondidas"]} perguntas já respondidas pela comunidade</sub></p>',
+        f'<p align="center">{q["ultimo"] or "Clique na alternativa que você acha certa 👆"}<br><sub>{q["respondidas"]} {"pergunta respondida" if q["respondidas"] == 1 else "perguntas respondidas"} pela comunidade</sub></p>',
     ]
     return "\n".join(linhas)
 
@@ -369,11 +370,11 @@ def bloco_memoria(estado):
             i = linha * 8 + col
             s = m["cartas"][i]
             if i in m["pares"]:
-                cartas.append(f'<img src="arcade/img/memoria/par-{s}.svg" width="11%" alt="{esc(SIMBOLOS[s])}">')
+                cartas.append(f'<img src="arcade/img/memoria/par-{s}.svg" width="64" alt="{esc(SIMBOLOS[s])}">')
             elif i in m["abertas"]:
-                cartas.append(f'<img src="arcade/img/memoria/carta-{s}.svg" width="11%" alt="{esc(SIMBOLOS[s])}">')
+                cartas.append(f'<img src="arcade/img/memoria/carta-{s}.svg" width="64" alt="{esc(SIMBOLOS[s])}">')
             else:
-                cartas.append(f'<a href="{link_issue(f"arcade|memoria|{i}")}"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta {i + 1}"></a>')
+                cartas.append(f'<a href="{link_issue(f"arcade|memoria|{i}")}"><img src="arcade/img/memoria/verso.svg" width="64" alt="carta {i + 1}"></a>')
         linhas_cartas.append("".join(cartas))
     pares = len(m["pares"]) // 2
     recorde = f" · recorde: {min(m['concluidos'])} jogadas" if m["concluidos"] else ""
@@ -389,7 +390,7 @@ def bloco_xadrez(estado):
     board = chess.Board(x["fen"])
     nome_img = f"tabuleiro-{estado['versao']}.svg"
     vez = "🩷 <b>Vez das rosas</b>" if board.turn == chess.WHITE else "💜 <b>Vez das roxas</b>"
-    partes = [f'<p align="center"><img src="arcade/out/{nome_img}" width="440" alt="Tabuleiro de xadrez"></p>', ""]
+    partes = [f'<p align="center"><img src="arcade/out/{nome_img}" width="400" alt="Tabuleiro de xadrez"></p>', ""]
     if board.is_game_over():
         partes.append(f'<p align="center">{x["ultimo"]}<br><b><a href="{link_issue("arcade|xadrez|NOVO")}">♟️ Começar uma nova partida</a></b></p>')
         return "\n".join(partes)
@@ -414,7 +415,7 @@ def bloco_xadrez(estado):
 
 
 def bloco_ranking(estado):
-    return f'<p align="center"><img src="arcade/out/ranking-{estado["versao"]}.svg" width="100%" alt="Ranking do Arcade"></p>'
+    return f'<p align="center"><img src="arcade/out/ranking-{estado["versao"]}.svg" width="560" alt="Ranking do Arcade"></p>'
 
 
 def substituir(texto, chave, conteudo):
