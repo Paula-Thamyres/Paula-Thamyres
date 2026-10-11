@@ -1,5 +1,5 @@
 {
-  "versao": 4,
+  "versao": 5,
   "quiz": {
     "atual": 1,
     "ultimo": "✅ <b>@Paula-Thamyres</b> acertou a pergunta 1: <code>&quot;object&quot;</code>",
@@ -26,11 +26,10 @@
     ],
     "pares": [],
     "abertas": [
-      1,
-      3
+      10
     ],
     "jogadas": 1,
-    "ultimo": "😅 <b>@Paula-Thamyres</b> virou <code>[ ]</code> e <code>&lt;/&gt;</code>: não formam par. Elas desviram na próxima jogada.",
+    "ultimo": "🃏 <b>@Paula-Thamyres</b> virou <code>&lt;/&gt;</code>. Qual é o par?",
     "concluidos": []
   },
   "xadrez": {
