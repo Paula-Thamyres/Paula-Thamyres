@@ -1,9 +1,9 @@
 {
-  "versao": 1,
+  "versao": 2,
   "quiz": {
-    "atual": 0,
-    "ultimo": "",
-    "respondidas": 0
+    "atual": 1,
+    "ultimo": "✅ <b>@Paula-Thamyres</b> acertou a pergunta 1: <code>&quot;object&quot;</code>",
+    "respondidas": 1
   },
   "memoria": {
     "cartas": [
@@ -36,5 +36,12 @@
     "ultimo": "",
     "partidas": 0
   },
-  "ranking": {}
+  "ranking": {
+    "Paula-Thamyres": {
+      "pontos": 2,
+      "quiz": 1,
+      "memoria": 0,
+      "xadrez": 0
+    }
+  }
 }

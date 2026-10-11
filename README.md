@@ -99,10 +99,10 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 <br>
 
 <!-- ARCADE:QUIZ:INICIO -->
-<p align="center"><img src="arcade/out/pergunta-1.svg" width="560" alt="Pergunta 1: O que este código imprime?"></p>
-<p align="center"><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CA&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-A-1.svg" width="276" alt="A) &quot;null&quot;"></a> <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CB&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-B-1.svg" width="276" alt="B) &quot;object&quot;"></a><br><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CC&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-C-1.svg" width="276" alt="C) &quot;undefined&quot;"></a> <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CD&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-D-1.svg" width="276" alt="D) &quot;number&quot;"></a></p>
+<p align="center"><img src="arcade/out/pergunta-2.svg" width="560" alt="Pergunta 2: Qual é o resultado?"></p>
+<p align="center"><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CA&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-A-2.svg" width="276" alt="A) 8"></a> <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CB&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-B-2.svg" width="276" alt="B) &quot;53&quot;"></a><br><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CC&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-C-2.svg" width="276" alt="C) NaN"></a> <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CD&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-D-2.svg" width="276" alt="D) Erro"></a></p>
 
-<p align="center">Clique na alternativa que você acha certa 👆<br><sub>0 perguntas respondidas pela comunidade</sub></p>
+<p align="center">✅ <b>@Paula-Thamyres</b> acertou a pergunta 1: <code>&quot;object&quot;</code><br><sub>1 pergunta respondida pela comunidade</sub></p>
 <!-- ARCADE:QUIZ:FIM -->
 
 </details>
@@ -124,7 +124,7 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 <br>
 
 <!-- ARCADE:XADREZ:INICIO -->
-<p align="center"><img src="arcade/out/tabuleiro-1.svg" width="400" alt="Tabuleiro de xadrez"></p>
+<p align="center"><img src="arcade/out/tabuleiro-2.svg" width="400" alt="Tabuleiro de xadrez"></p>
 
 <p align="center">🩷 <b>Vez das rosas</b> · lance 1<br>Qualquer pessoa pode jogar: escolha um lance abaixo 👇</p>
 
@@ -148,7 +148,7 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 <br>
 
 <!-- ARCADE:RANKING:INICIO -->
-<p align="center"><img src="arcade/out/ranking-1.svg" width="560" alt="Ranking do Arcade"></p>
+<p align="center"><img src="arcade/out/ranking-2.svg" width="560" alt="Ranking do Arcade"></p>
 <!-- ARCADE:RANKING:FIM -->
 
 
