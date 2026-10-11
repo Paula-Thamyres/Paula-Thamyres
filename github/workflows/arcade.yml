@@ -1,0 +1,62 @@
+name: Arcade da Paula
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: arcade
+  cancel-in-progress: false
+
+jobs:
+  jogar:
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.issue.title, 'arcade|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install chess==1.10.0
+
+      - name: Processar jogada
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          EVENTO: ${{ github.event_name }}
+        run: |
+          if [ "$EVENTO" = "workflow_dispatch" ]; then
+            python arcade/arcade.py init
+          else
+            python arcade/arcade.py play
+          fi
+
+      - name: Salvar no perfil
+        env:
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "arcade-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A arcade README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "arcade: jogada de @${ISSUE_USER:-paula}"
+            git push
+          fi
+
+      - name: Responder e fechar a issue
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMERO: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUMERO" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/comentario.md"
+          gh issue close "$NUMERO" --repo "$GITHUB_REPOSITORY"
