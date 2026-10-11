@@ -1,238 +1,32 @@
-👋 Olá, eu sou
-
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Sora&weight=800&size=54&pause=1000&color=9B6DFF&center=true&vCenter=true&width=650&height=95&lines=Paula+Femina" alt="Paula Femina"/>
-</p>
-
-<p align="center">
-Desenvolvedora com especialidade em Android • Kotlin • Jetpack Compose • Front-end em evolução 💜
-</p>
-
-<p align="center">
-<img width="994" src="https://github.com/user-attachments/assets/1f914a94-b07f-4578-85ca-2f15a08067b4"/>
-</p>
-
-Desenvolvedora Android apaixonada por tecnologia, interfaces modernas e experiências mobile intuitivas.
-
-Atualmente atuo com Kotlin e Jetpack Compose, criando aplicações Android com foco em arquitetura limpa, boas práticas e interfaces responsivas.
-
-Agora estou expandindo meus conhecimentos para o universo Front-end, estudando React.js para construir experiências cada vez mais completas entre mobile e web. 💜
-
-</td>
-<td width="44%" valign="top">
-
-👩‍💻 &nbsp;Desenvolvedora Front-End <br/>
-⚛️ &nbsp;React.js · JavaScript · HTML & CSS <br/>
-📱 &nbsp;Background em Android com Kotlin & Jetpack Compose <br/>
-✨ &nbsp;Diferencial: IA Generativa & RAG aplicados a interfaces <br/>
-🧠 &nbsp;Formação em IA & RAG pelo Instituto ECOA (PUC-Rio) <br/>
-🔎 &nbsp;Experiência prática com RAG aplicado à saúde pública <br/>
-🎓 &nbsp;Especialização em Inteligência Artificial
-
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<div align="center">
-  <pre>> Desenvolvendo soluções. Criando experiências. Evoluindo sempre.                          &lt;/&gt;</pre>
-</div>
-
-<br/>
-
-<!-- ══════════════ TECNOLOGIAS + ESTUDANDO ══════════════ -->
-
-<table>
-<tr>
-
-<!-- ── Tecnologias (esquerda ~68%) ── -->
-<td width="68%" valign="top">
-
-**🚀 TECNOLOGIAS & FERRAMENTAS**
-
-&nbsp;
-
-<table border="0" cellspacing="0" cellpadding="8">
-<tr>
-<td valign="top">
-
-<sub><b>Mobile Development</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=kotlin,android" height="36" alt="Kotlin Android" />&nbsp;<img src="https://img.shields.io/badge/-Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" height="24" alt="Jetpack Compose"/>
-
-</td>
-<td valign="top">
-
-<sub><b>Front-end Journey</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=react,js,html,css" height="36" alt="React JS HTML CSS" />
-
-</td>
-<td valign="top">
-
-<sub><b>Tools</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=androidstudio,vscode,git,figma" height="36" alt="Android Studio VS Code Git Figma" />
-
-</td>
-</tr>
-</table>
-
-</td>
-
-<!-- ── Atualmente Estudando (direita ~32%) ── -->
-<td width="32%" valign="top">
-
-**🌱 ATUALMENTE ESTUDANDO**
-
-&nbsp;
-
-🟣 &nbsp;React.js <br/>
-🟣 &nbsp;Componentização <br/>
-🟣 &nbsp;Hooks <br/>
-🟣 &nbsp;Consumo de APIs <br/>
-🟣 &nbsp;Desenvolvimento Front-end moderno
-
-</td>
-
-</tr>
-</table>
-
-<br/>
-
-<!-- ══════════════ GITHUB STATS ══════════════ -->
-
-**📊 GITHUB STATS**
-
-<br/>
-
-<table>
-<tr>
-
-<!-- ── Painel 1 – Stats Card ── -->
-<td width="33%" align="center" valign="top">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Paula-Thamyres&theme=tokyonight" alt="Stats" />
-
-</td>
-
-<!-- ── Painel 2 – Streak ── -->
-<td width="36%" align="center" valign="top">
-
-<img src="https://streak-stats.demolab.com?user=Paula-Thamyres&hide_border=true&background=1a1b27&ring=9b6dff&fire=ff6eb4&currStreakLabel=b98aff&sideLabels=e8e8f0&dates=7a7a9a&stroke=2a2a45&currStreakNum=e8e8f0&sideNums=9b6dff" alt="GitHub Streak" />
-
-</td>
-
-<!-- ── Painel 3 – Linguagens ── -->
-<td width="31%" align="center" valign="top">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Paula-Thamyres&theme=tokyonight" alt="Linguagens mais usadas" />
-
-</td>
-
-</tr>
-</table>
-
-<br/>
-
-<!-- ══════════════ PROJETOS ══════════════ -->
-
-**✨ PROJETOS EM DESTAQUE**
-
-<br/>
-
-<table>
-<tr>
-
-<td width="25%" valign="top">
-
-**📱 MyTasks App**<br/>
-<sub>Aplicativo de tarefas com Jetpack Compose</sub>
-
-<br/>
-
-<img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
-&nbsp;⭐ 128 &nbsp;🍴 34
-
-</td>
-
-<td width="25%" valign="top">
-
-**🎬 Movie App**<br/>
-<sub>App de filmes com API, Compose e Clean Architecture</sub>
-
-<br/>
-
-<img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
-&nbsp;⭐ 96 &nbsp;🍴 21
-
-</td>
-
-<td width="25%" valign="top">
-
-**🌤️ Weather App**<br/>
-<sub>App de clima com integração de API e UI moderna</sub>
-
-<br/>
-
-<img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
-&nbsp;⭐ 74 &nbsp;🍴 18
-
-</td>
-
-<td width="25%" valign="top">
-
-**⚛️ Portfolio React**<br/>
-<sub>Meu portfólio pessoal feito com React.js moderno</sub>
-
-<br/>
-
-<img src="https://img.shields.io/badge/-JavaScript-F0DB4F?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
-&nbsp;⭐ 53 &nbsp;🍴 12
-
-</td>
-
-</tr>
-</table>
-
-<br/>
-
-<!-- ══════════════ CONECTAR ══════════════ -->
-
-**✉️ VAMOS NOS CONECTAR?**
-
-<br/>
-
-<table>
-<tr>
-
-<td width="25%" align="center">
-  <a href="https://www.linkedin.com/in/paula-femina/">
-    <img src="https://img.shields.io/badge/LinkedIn-%40paula--femina-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</td>
-
-<td width="25%" align="center">
-  <a href="mailto:paula.arthamys@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-paula.arthamys@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-</td>
-
-<td width="25%" align="center">
-  <a href="https://www.instagram.com/paulathamy/">
-    <img src="https://img.shields.io/badge/Instagram-%40paulathamy-DD2A7B?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-</td>
-
-<td width="25%" align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Portfólio-Em%20breve-9B6DFF?style=for-the-badge&logo=react&logoColor=white" alt="Portfólio" />
-  </a>
-</td>
-
-</tr>
-</table>
-
-<br/><br/>
-
-<p align="center">✦ &nbsp;<em>"Transformando ideias em experiências digitais."</em>&nbsp; ✦</p>
-
+name: Gerar cobrinha das contribuições
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # atualiza sozinha a cada 12 horas
+  workflow_dispatch:          # permite rodar manualmente pela aba Actions
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Gerar SVG da cobrinha em tons de roxo
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#C084FC&color_dots=#161b22,#3b2a6b,#5b3fa0,#8b5cf6,#c084fc
+
+      - name: Publicar na branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
