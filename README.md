@@ -90,7 +90,7 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 <!-- ==================== ARCADE ==================== -->
 ### 🎮 Arcade da Paula
 
-<p align="center"><img src="arcade/img/banner.svg" width="100%" alt="Arcade da Paula: quiz, memória e xadrez"></p>
+<p align="center"><img src="arcade/img/banner.svg" width="600%" alt="Arcade da Paula: quiz, memória e xadrez"></p>
 
 <p align="center"><sub>Programei estes jogos com Python e GitHub Actions. Clique numa jogada, envie a issue que abrir e, em uns 30 segundos, o robô atualiza o perfil. Todo mundo pode jogar! 💜</sub></p>
 
