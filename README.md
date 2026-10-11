@@ -6,10 +6,10 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=2800&pause=900&color=C4B5FD&center=true&vCenter=true&width=640&height=34&lines=Desenvolvedora+Front-End;React+%C2%B7+JavaScript+%C2%B7+HTML+%26+CSS;IA+Generativa+%26+RAG+como+diferencial;Do+mobile+%C3%A0+web%2C+com+c%C3%B3digo+limpo" alt="Desenvolvedora Front-End" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=2800&pause=900&color=C4B5FD&center=true&vCenter=true&width=820&height=34&lines=Desenvolvedora+Front-End;React+%C2%B7+JavaScript+%C2%B7+HTML+%26+CSS;IA+Generativa+%26+RAG+como+diferencial;Do+mobile+%C3%A0+web%2C+com+c%C3%B3digo+limpo" alt="Desenvolvedora Front-End" />
 </p>
 
-<!-- 👇 COLE AQUI A LINHA DO SEU BANNER ATUAL (a imagem do quarto roxo) -->
+<!-- 👇 COLE AQUI A LINHA DO SEU BANNER (a imagem do quarto roxo) -->
 
 
 <!-- ==================== SOBRE MIM ==================== -->
@@ -78,49 +78,75 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Paula-Thamyres&show_icons=true&hide=stars,prs,issues&count_private=true&bg_color=0d1117&title_color=A78BFA&icon_color=C084FC&text_color=C9D1D9&hide_border=true&custom_title=Minha%20jornada" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Paula-Thamyres&show_icons=true&hide_rank=true&hide=stars,prs,issues&count_private=true&bg_color=0d1117&title_color=A78BFA&icon_color=C084FC&text_color=C9D1D9&hide_border=true&custom_title=Minha%20jornada" alt="GitHub Stats" />
   <img height="165" src="https://streak-stats.demolab.com?user=Paula-Thamyres&background=0d1117&ring=8B5CF6&fire=C084FC&currStreakNum=FFFFFF&sideNums=A78BFA&currStreakLabel=C084FC&sideLabels=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true" alt="GitHub Streak" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paula-Thamyres&layout=compact&bg_color=0d1117&title_color=A78BFA&text_color=C9D1D9&hide_border=true&langs_count=6" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Paula-Thamyres&bg_color=0d1117&color=C4B5FD&line=8B5CF6&point=C084FC&area=true&area_color=8B5CF6&hide_border=true&custom_title=Contribui%C3%A7%C3%B5es%20recentes" alt="Gráfico de contribuições" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paula-Thamyres&layout=compact&hide=jupyter%20notebook&bg_color=0d1117&title_color=A78BFA&text_color=C9D1D9&hide_border=true&langs_count=6" alt="Top Languages" />
 </p>
 
 
-<!-- ==================== PROJETOS ==================== -->
-### ✨ Projetos em destaque
+<!-- ==================== ARCADE ==================== -->
+### 🎮 Arcade da Paula
 
-<!-- Troque NOME_DO_REPO pelo nome exato de cada repositório. -->
-<p align="center">
-  <a href="https://github.com/Paula-Thamyres/NOME_DO_REPO_1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Paula-Thamyres&repo=NOME_DO_REPO_1&bg_color=0d1117&title_color=A78BFA&icon_color=C084FC&text_color=C9D1D9&hide_border=true" alt="Projeto 1" />
-  </a>
-  <a href="https://github.com/Paula-Thamyres/NOME_DO_REPO_2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Paula-Thamyres&repo=NOME_DO_REPO_2&bg_color=0d1117&title_color=A78BFA&icon_color=C084FC&text_color=C9D1D9&hide_border=true" alt="Projeto 2" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Paula-Thamyres/NOME_DO_REPO_3">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Paula-Thamyres&repo=NOME_DO_REPO_3&bg_color=0d1117&title_color=A78BFA&icon_color=C084FC&text_color=C9D1D9&hide_border=true" alt="Projeto 3" />
-  </a>
-  <a href="https://github.com/Paula-Thamyres/NOME_DO_REPO_4">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Paula-Thamyres&repo=NOME_DO_REPO_4&bg_color=0d1117&title_color=A78BFA&icon_color=C084FC&text_color=C9D1D9&hide_border=true" alt="Projeto 4" />
-  </a>
-</p>
+<p align="center"><img src="arcade/img/banner.svg" width="100%" alt="Arcade da Paula: quiz, memória e xadrez"></p>
 
+<p align="center"><sub>Programei estes jogos com Python e GitHub Actions. Clique numa jogada, envie a issue que abrir e, em uns 30 segundos, o robô atualiza o perfil. Todo mundo pode jogar! 💜</sub></p>
 
-<!-- ==================== YOUTUBE (apague as marcações quando o canal estiver no ar) ====================
-### 🎥 Programação na prática
+<details open>
+<summary><b>🧠 Quiz de JavaScript</b> · responda e ganhe pontos</summary>
+<br>
 
-No meu canal eu resolvo exercícios de lógica e construo projetos de front-end passo a passo — do simples ao melhorado.
+<!-- ARCADE:QUIZ:INICIO -->
+<p align="center"><img src="arcade/out/pergunta-1.svg" width="100%" alt="Pergunta 1: O que este código imprime?"></p>
+<p align="center"><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CA&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-A-1.svg" width="49%" alt="A) &quot;null&quot;"></a> <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CB&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-B-1.svg" width="49%" alt="B) &quot;object&quot;"></a><br><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CC&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-C-1.svg" width="49%" alt="C) &quot;undefined&quot;"></a> <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CD&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-D-1.svg" width="49%" alt="D) &quot;number&quot;"></a></p>
 
-<p align="center">
-  <a href="https://www.youtube.com/@paulafeminadev">
-    <img src="https://img.shields.io/badge/Assista_no_YouTube-@paulafeminadev-8B5CF6?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-  </a>
-</p>
--->
+<p align="center">Clique na alternativa que você acha certa 👆<br><sub>0 perguntas já respondidas pela comunidade</sub></p>
+<!-- ARCADE:QUIZ:FIM -->
+
+</details>
+
+<details>
+<summary><b>🃏 Memória Dev</b> · encontre os pares de código</summary>
+<br>
+
+<!-- ARCADE:MEMORIA:INICIO -->
+<p align="center"><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C0&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 1"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C1&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 2"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C2&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 3"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 4"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C4&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 5"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C5&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 6"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C6&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 7"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C7&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 8"></a><br><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C8&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 9"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C9&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 10"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C10&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 11"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C11&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 12"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C12&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 13"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C13&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 14"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C14&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 15"></a><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cmemoria%7C15&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/img/memoria/verso.svg" width="11%" alt="carta 16"></a></p>
+
+<p align="center"><b>Pares:</b> 0/8 · <b>Jogadas:</b> 0<br>Vire duas cartas iguais para formar um par 🃏</p>
+<!-- ARCADE:MEMORIA:FIM -->
+
+</details>
+
+<details>
+<summary><b>♟️ Xadrez Candy</b> · uma partida aberta para todo mundo</summary>
+<br>
+
+<!-- ARCADE:XADREZ:INICIO -->
+<p align="center"><img src="arcade/out/tabuleiro-1.svg" width="440" alt="Tabuleiro de xadrez"></p>
+
+<p align="center">🩷 <b>Vez das rosas</b> · lance 1<br>Qualquer pessoa pode jogar: escolha um lance abaixo 👇</p>
+
+<table align="center">
+<tr><th>Peça</th><th>De</th><th>Para (clique)</th></tr>
+<tr><td>Peão</td><td><b>A2</b></td><td><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CA2A3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">A3</a> · <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CA2A4&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">A4</a></td></tr>
+<tr><td>Peão</td><td><b>B2</b></td><td><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CB2B3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">B3</a> · <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CB2B4&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">B4</a></td></tr>
+<tr><td>Peão</td><td><b>C2</b></td><td><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CC2C3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">C3</a> · <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CC2C4&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">C4</a></td></tr>
+<tr><td>Peão</td><td><b>D2</b></td><td><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CD2D3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">D3</a> · <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CD2D4&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">D4</a></td></tr>
+<tr><td>Peão</td><td><b>E2</b></td><td><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CE2E3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">E3</a> · <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CE2E4&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">E4</a></td></tr>
+<tr><td>Peão</td><td><b>F2</b></td><td><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CF2F3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">F3</a> · <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CF2F4&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">F4</a></td></tr>
+<tr><td>Peão</td><td><b>G2</b></td><td><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CG2G3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">G3</a> · <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CG2G4&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">G4</a></td></tr>
+<tr><td>Peão</td><td><b>H2</b></td><td><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CH2H3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">H3</a> · <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CH2H4&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">H4</a></td></tr>
+<tr><td>Cavalo</td><td><b>B1</b></td><td><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CB1A3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">A3</a> · <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CB1C3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">C3</a></td></tr>
+<tr><td>Cavalo</td><td><b>G1</b></td><td><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CG1F3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">F3</a> · <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cxadrez%7CG1H3&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C">H3</a></td></tr>
+</table>
+<!-- ARCADE:XADREZ:FIM -->
+
+</details>
+
+<br>
+
+<!-- ARCADE:RANKING:INICIO -->
+<p align="center"><img src="arcade/out/ranking-1.svg" width="100%" alt="Ranking do Arcade"></p>
+<!-- ARCADE:RANKING:FIM -->
 
 
 <!-- ==================== CONTATO ==================== -->
@@ -135,12 +161,6 @@ No meu canal eu resolvo exercícios de lógica e construo projetos de front-end 
   </a>
 </p>
 
-
-<!-- ==================== COBRINHA ==================== -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Paula-Thamyres/Paula-Thamyres/output/github-snake-dark.svg" alt="Cobrinha comendo as contribuições" />
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:C084FC&height=110&section=footer&text=Transformando%20ideias%20em%20experi%C3%AAncias%20digitais&fontSize=18&fontColor=FFFFFF&fontAlignY=68" alt="Transformando ideias em experiências digitais" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:F472B6&height=110&section=footer&text=Transformando%20ideias%20em%20experi%C3%AAncias%20digitais&fontSize=18&fontColor=FFFFFF&fontAlignY=68" alt="Transformando ideias em experiências digitais" />
 </p>

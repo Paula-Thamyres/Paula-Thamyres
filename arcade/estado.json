@@ -1,0 +1,40 @@
+{
+  "versao": 1,
+  "quiz": {
+    "atual": 0,
+    "ultimo": "",
+    "respondidas": 0
+  },
+  "memoria": {
+    "cartas": [
+      0,
+      3,
+      2,
+      1,
+      6,
+      4,
+      7,
+      6,
+      4,
+      7,
+      1,
+      2,
+      5,
+      0,
+      5,
+      3
+    ],
+    "pares": [],
+    "abertas": [],
+    "jogadas": 0,
+    "ultimo": "",
+    "concluidos": []
+  },
+  "xadrez": {
+    "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "lances": [],
+    "ultimo": "",
+    "partidas": 0
+  },
+  "ranking": {}
+}

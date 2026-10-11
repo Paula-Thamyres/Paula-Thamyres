@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="60" viewBox="0 0 380 60">
+<rect x="1" y="1" width="378" height="58" rx="14" fill="#1f1633" stroke="#8b5cf6" stroke-width="2"/>
+<circle cx="32" cy="30" r="17" fill="#f472b6"/>
+<text x="32" y="36" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#3b0a2a">B</text>
+<text x="62" y="37" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="18" font-weight="600" fill="#f5f3ff">&quot;object&quot;</text>
+</svg>
