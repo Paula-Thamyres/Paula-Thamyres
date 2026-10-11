@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arcade da Paula</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: cabeçalho com abas; cada jogo num painel central de até 640px, no visual roxo + rosa do perfil */
+:root {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --panel: #1a1230;
+  --panel-2: #22163f;
+  --line: rgba(139, 92, 246, .35);
+  --fg: #f5f3ff;
+  --muted: #b8acd9;
+  --purple: #8b5cf6;
+  --lilac: #c4b5fd;
+  --pink: #f472b6;
+  --pink-soft: #fbcfe8;
+  --cyan: #22d3ee;
+  --ok: #34d399;
+  --bad: #fb7185;
+  --display: "Chakra Petch", "Trebuchet MS", sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { background: var(--bg); color: var(--fg); }
+body { margin: 0; font-family: var(--body); font-size: 15px; line-height: 1.5; padding-inline: 16px; padding-block: 0; }
+.app { max-width: 680px; margin: 0 auto; padding-block: 28px 48px; display: grid; gap: 22px; }
+
+header { display: grid; gap: 14px; justify-items: center; text-align: center; }
+.brand { font-family: var(--display); font-weight: 600; font-size: clamp(24px, 6vw, 32px); letter-spacing: .12em; margin: 0; text-shadow: 0 0 18px rgba(244, 114, 182, .35); }
+.brand span { color: var(--pink); }
+.sub { margin: 0; color: var(--muted); font-family: var(--mono); font-size: 12.5px; }
+nav { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+nav button { font: 600 14px var(--body); color: var(--muted); background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px; cursor: pointer; transition: all .2s; }
+nav button:hover { color: var(--fg); border-color: var(--lilac); }
+nav button[aria-selected="true"] { color: #2a0b1e; background: var(--pink); border-color: var(--pink); }
+button:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+
+.panel { background: linear-gradient(135deg, #1c1236, #261445); border: 1px solid var(--line); border-radius: 16px; padding: 22px; display: grid; gap: 16px; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.label { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--pink); }
+.pill { font-family: var(--mono); font-size: 12px; color: var(--lilac); background: rgba(139, 92, 246, .15); border-radius: 999px; padding: 4px 10px; font-variant-numeric: tabular-nums; }
+.btn { font: 600 14px var(--body); color: #2a0b1e; background: var(--pink); border: 0; border-radius: 10px; padding: 9px 18px; cursor: pointer; }
+.btn.ghost { color: var(--fg); background: transparent; border: 1px solid var(--line); }
+.btn:hover { filter: brightness(1.08); }
+
+/* QUIZ */
+.q-title { font-family: var(--display); font-size: 21px; font-weight: 600; margin: 0; text-wrap: balance; }
+pre.code { margin: 0; background: #0b0f17; border-radius: 10px; padding: 12px 14px; font: 14px/1.6 var(--mono); color: var(--cyan); overflow-x: auto; }
+.opts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 520px) { .opts { grid-template-columns: minmax(0, 1fr); } }
+.opt { display: flex; align-items: center; gap: 10px; text-align: left; font: 500 14px var(--mono); color: var(--fg); background: #160f2a; border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; cursor: pointer; transition: all .2s; min-width: 0; }
+.opt:hover:not(:disabled) { border-color: var(--pink); transform: translateY(-1px); }
+.opt b { flex: none; display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: var(--pink); color: #2a0b1e; font: 700 12px var(--body); }
+.opt.right { border-color: var(--ok); background: rgba(52, 211, 153, .12); }
+.opt.right b { background: var(--ok); }
+.opt.wrong { border-color: var(--bad); background: rgba(251, 113, 133, .1); }
+.opt.wrong b { background: var(--bad); }
+.opt:disabled { cursor: default; }
+.feedback { border-radius: 12px; padding: 12px 14px; background: rgba(139, 92, 246, .12); font-size: 14px; }
+.feedback strong { display: block; margin-bottom: 2px; }
+
+/* MEMÓRIA */
+.cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; max-width: 420px; width: 100%; margin: 0 auto; }
+.card { aspect-ratio: 3 / 4; perspective: 700px; border: 0; padding: 0; background: none; cursor: pointer; max-width: 100%; }
+.card .inner { position: relative; width: 100%; height: 100%; transition: transform .45s cubic-bezier(.2,.7,.3,1); transform-style: preserve-3d; }
+.card.up .inner, .card.done .inner { transform: rotateY(180deg); }
+.face { position: absolute; inset: 0; border-radius: 12px; display: grid; place-items: center; backface-visibility: hidden; }
+.back { background: linear-gradient(135deg, var(--purple), #4c1d95); border: 1.5px solid var(--lilac); color: #fff; font: 700 26px var(--display); }
+.back::after { content: ""; position: absolute; inset: 6px; border: 1px dashed rgba(255,255,255,.25); border-radius: 8px; }
+.front { transform: rotateY(180deg); background: #ede9fe; border: 2px solid var(--pink); color: #4c1d95; font: 700 clamp(15px, 4vw, 20px) var(--mono); }
+.card.done .front { background: var(--pink); border-color: #fff; color: #3b0a2a; box-shadow: 0 0 16px rgba(244, 114, 182, .55); }
+.card:disabled { cursor: default; }
+
+/* XADREZ */
+.board-wrap { background: var(--pink-soft); border-radius: 18px; padding: 10px; max-width: 440px; width: 100%; margin: 0 auto; }
+.board { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 3px; background: #fff; border-radius: 12px; padding: 4px; }
+.sq { aspect-ratio: 1; border: 0; padding: 0; border-radius: 7px; position: relative; cursor: pointer; display: grid; place-items: center; }
+.sq.l { background: #fff1f8; } .sq.d { background: #e9d5ff; }
+.sq.last { box-shadow: inset 0 0 0 100px rgba(253, 224, 71, .5); }
+.sq.sel { box-shadow: inset 0 0 0 3px var(--pink); }
+.sq.check { box-shadow: inset 0 0 0 3px #e11d48; }
+.sq.dot::after { content: ""; position: absolute; width: 26%; height: 26%; border-radius: 50%; background: rgba(236, 72, 153, .55); }
+.sq.cap::after { content: ""; position: absolute; inset: 8%; border-radius: 50%; border: 3px solid rgba(236, 72, 153, .6); }
+.sq svg { width: 92%; height: 92%; pointer-events: none; }
+.coords { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); padding: 4px 7px 0; font: 700 11px var(--body); color: #9d174d; text-align: center; }
+.status { text-align: center; font-size: 14px; color: var(--fg); min-height: 1.5em; }
+
+footer { text-align: center; color: var(--muted); font-size: 13px; }
+footer a { color: var(--lilac); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <header>
+    <h1 class="brand">ARCADE <span>DA PAULA</span></h1>
+    <p class="sub">3 jogos · clique e jogue na hora</p>
+    <nav role="tablist" aria-label="Jogos">
+      <button role="tab" id="tab-quiz" aria-selected="true" data-tab="quiz">🧠 Quiz</button>
+      <button role="tab" id="tab-memoria" aria-selected="false" data-tab="memoria">🃏 Memória</button>
+      <button role="tab" id="tab-xadrez" aria-selected="false" data-tab="xadrez">♟️ Xadrez</button>
+    </nav>
+  </header>
+
+  <section class="panel" id="quiz" role="tabpanel" aria-labelledby="tab-quiz"></section>
+
+  <section class="panel" id="memoria" role="tabpanel" aria-labelledby="tab-memoria" hidden>
+    <div class="row"><span class="label">Memória Dev</span><span class="pill" id="m-info">Pares 0/8 · Jogadas 0</span></div>
+    <div class="cards" id="cards"></div>
+    <div class="status" id="m-status">Vire duas cartas iguais para formar um par.</div>
+    <div class="row" style="justify-content:center"><button class="btn ghost" id="m-reset">Embaralhar de novo</button></div>
+  </section>
+
+  <section class="panel" id="xadrez" role="tabpanel" aria-labelledby="tab-xadrez" hidden>
+    <div class="row"><span class="label">Xadrez Candy</span><span class="pill">você: rosa · robô: roxo</span></div>
+    <div class="board-wrap">
+      <div class="board" id="board" aria-label="Tabuleiro de xadrez"></div>
+      <div class="coords"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span><span>H</span></div>
+    </div>
+    <div class="status" id="x-status">Sua vez: clique numa peça rosa.</div>
+    <div class="row" style="justify-content:center"><button class="btn ghost" id="x-reset">Nova partida</button></div>
+  </section>
+
+  <footer>Feito por <a href="https://github.com/Paula-Thamyres" target="_blank" rel="noopener">Paula Femina</a> com HTML, CSS e JavaScript 💜</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chess.js@0.10.3/chess.js"></script>
+<script>
+(() => {
+  /* ---------------- abas ---------------- */
+  const tabs = document.querySelectorAll("nav button");
+  function abrir(nome) {
+    tabs.forEach(t => t.setAttribute("aria-selected", t.dataset.tab === nome));
+    ["quiz", "memoria", "xadrez"].forEach(id => document.getElementById(id).hidden = id !== nome);
+  }
+  tabs.forEach(t => t.addEventListener("click", () => abrir(t.dataset.tab)));
+  const inicial = location.hash.replace("#", "");
+  if (["quiz", "memoria", "xadrez"].includes(inicial)) abrir(inicial);
+
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  /* ---------------- QUIZ ---------------- */
+  const PERGUNTAS = [{"pergunta": "O que este código imprime?", "codigo": ["console.log(typeof null)"], "opcoes": ["\"null\"", "\"object\"", "\"undefined\"", "\"number\""], "certa": 1, "explicacao": "typeof null retorna \"object\" — um bug histórico do JavaScript que ficou para sempre."}, {"pergunta": "Qual é o resultado?", "codigo": ["console.log(\"5\" + 3)"], "opcoes": ["8", "\"53\"", "NaN", "Erro"], "certa": 1, "explicacao": "Com o operador + e uma string, o número é convertido em texto: \"5\" + 3 vira \"53\"."}, {"pergunta": "E agora, com o sinal de menos?", "codigo": ["console.log(\"5\" - 3)"], "opcoes": ["\"53\"", "\"2\"", "2", "NaN"], "certa": 2, "explicacao": "O operador - só funciona com números, então \"5\" vira 5 e o resultado é 2."}, {"pergunta": "Qual é o resultado da comparação?", "codigo": ["console.log(0.1 + 0.2 === 0.3)"], "opcoes": ["true", "false", "undefined", "Erro"], "certa": 1, "explicacao": "0.1 + 0.2 dá 0.30000000000000004 por causa da precisão de ponto flutuante."}, {"pergunta": "O que o map retorna aqui?", "codigo": ["[1, 2, 3].map(n => n * 2)"], "opcoes": ["[1, 2, 3]", "[2, 4, 6]", "12", "undefined"], "certa": 1, "explicacao": "map cria um novo array aplicando a função a cada item: [2, 4, 6]."}, {"pergunta": "Qual é o resto da divisão?", "codigo": ["console.log(10 % 3)"], "opcoes": ["3", "1", "0", "3.33"], "certa": 1, "explicacao": "% é o operador de resto: 10 dividido por 3 dá 3 e sobra 1."}, {"pergunta": "Uma string vazia vira o quê?", "codigo": ["console.log(Boolean(\"\"))"], "opcoes": ["true", "false", "\"\"", "null"], "certa": 1, "explicacao": "String vazia é um valor falsy, então Boolean(\"\") é false."}, {"pergunta": "NaN é igual a ele mesmo?", "codigo": ["console.log(NaN === NaN)"], "opcoes": ["true", "false", "NaN", "Erro"], "certa": 1, "explicacao": "NaN é o único valor diferente de si mesmo. Use Number.isNaN() para testar."}, {"pergunta": "Qual o tamanho do array no final?", "codigo": ["const a = [1, 2, 3]", "a.push(4)", "console.log(a.length)"], "opcoes": ["3", "4", "5", "Erro: a é const"], "certa": 1, "explicacao": "const impede reatribuir a variável, mas o array pode mudar: push deixa 4 itens."}, {"pergunta": "Qual método remove o último item?", "codigo": ["const pilha = [\"a\", \"b\", \"c\"]"], "opcoes": ["shift()", "pop()", "slice()", "remove()"], "certa": 1, "explicacao": "pop() remove e retorna o último item; shift() remove o primeiro."}, {"pergunta": "Qual é o tipo de um array?", "codigo": ["console.log(typeof [])"], "opcoes": ["\"array\"", "\"object\"", "\"list\"", "\"undefined\""], "certa": 1, "explicacao": "Arrays são objetos em JavaScript. Para testar, use Array.isArray()."}, {"pergunta": "\"arara\" é um palíndromo?", "codigo": ["const p = \"arara\"", "[...p].reverse().join(\"\") === p"], "opcoes": ["true", "false", "\"arara\"", "Erro"], "certa": 0, "explicacao": "Invertida, \"arara\" continua \"arara\", então a comparação dá true."}, {"pergunta": "O que aparece no console?", "codigo": ["let i = 0", "i++", "console.log(i++)"], "opcoes": ["0", "1", "2", "undefined"], "certa": 1, "explicacao": "i++ devolve o valor antes de somar: depois do primeiro i++, i vale 1 e é isso que aparece."}, {"pergunta": "Comparação estrita entre tipos diferentes:", "codigo": ["console.log(\"2\" === 2)"], "opcoes": ["true", "false", "\"2\"", "Erro"], "certa": 1, "explicacao": "=== compara valor e tipo; string e número nunca são estritamente iguais."}, {"pergunta": "Como fica o array ordenado?", "codigo": ["[10, 1, 2].sort()"], "opcoes": ["[1, 2, 10]", "[1, 10, 2]", "[10, 2, 1]", "[2, 1, 10]"], "certa": 1, "explicacao": "Sem função de comparação, sort ordena como texto: \"1\", \"10\", \"2\"."}, {"pergunta": "A string \"0\" é verdadeira ou falsa?", "codigo": ["console.log(!!\"0\")"], "opcoes": ["true", "false", "0", "NaN"], "certa": 0, "explicacao": "Qualquer string com conteúdo é truthy, até \"0\"."}, {"pergunta": "O que o filter devolve?", "codigo": ["[1, 2, 3, 4].filter(n => n % 2 === 0)"], "opcoes": ["[1, 3]", "[2, 4]", "2", "true"], "certa": 1, "explicacao": "filter mantém só os itens que passam no teste: os pares 2 e 4."}, {"pergunta": "Qual é o resultado do reduce?", "codigo": ["[1, 2, 3].reduce((soma, n) => soma + n, 0)"], "opcoes": ["6", "123", "[1, 2, 3]", "0"], "certa": 0, "explicacao": "reduce acumula os valores: 0 + 1 + 2 + 3 = 6."}, {"pergunta": "Como deixar o texto em maiúsculas?", "codigo": ["const nome = \"paula\""], "opcoes": ["nome.upper()", "nome.toUpperCase()", "nome.caps()", "upper(nome)"], "certa": 1, "explicacao": "toUpperCase() devolve uma nova string em maiúsculas: \"PAULA\"."}, {"pergunta": "Qual o valor de x?", "codigo": ["const [a, , x] = [\"js\", \"html\", \"css\"]"], "opcoes": ["\"js\"", "\"html\"", "\"css\"", "undefined"], "certa": 2, "explicacao": "Na desestruturação, a vírgula pula o segundo item, então x recebe \"css\"."}];
+  const quiz = document.getElementById("quiz");
+  let qi = 0, acertos = 0;
+  function renderQuiz() {
+    if (qi >= PERGUNTAS.length) {
+      quiz.innerHTML = `<span class="label">Fim do quiz</span>
+        <h2 class="q-title">Você acertou ${acertos} de ${PERGUNTAS.length}! ${acertos >= 15 ? "🏆" : acertos >= 10 ? "✨" : "💜"}</h2>
+        <p style="margin:0;color:var(--muted)">${acertos >= 15 ? "Mandou muito bem em JavaScript." : "Cada erro é uma coisa nova aprendida. Bora de novo?"}</p>
+        <div><button class="btn" id="q-again">Jogar de novo</button></div>`;
+      document.getElementById("q-again").onclick = () => { qi = 0; acertos = 0; renderQuiz(); };
+      return;
+    }
+    const p = PERGUNTAS[qi];
+    quiz.innerHTML = `<div class="row"><span class="label">Pergunta ${qi + 1} de ${PERGUNTAS.length} · JavaScript</span><span class="pill">acertos: ${acertos}</span></div>
+      <h2 class="q-title">${esc(p.pergunta)}</h2>
+      ${p.codigo && p.codigo.length ? `<pre class="code">${p.codigo.map(esc).join("\n")}</pre>` : ""}
+      <div class="opts">${p.opcoes.map((o, k) => `<button class="opt" data-k="${k}"><b>${"ABCD"[k]}</b><span>${esc(o)}</span></button>`).join("")}</div>
+      <div id="q-fb"></div>`;
+    quiz.querySelectorAll(".opt").forEach(b => b.addEventListener("click", () => responder(+b.dataset.k)));
+  }
+  function responder(k) {
+    const p = PERGUNTAS[qi], certo = k === p.certa;
+    if (certo) acertos++;
+    quiz.querySelectorAll(".opt").forEach((b, i) => { b.disabled = true; if (i === p.certa) b.classList.add("right"); else if (i === k) b.classList.add("wrong"); });
+    document.getElementById("q-fb").innerHTML = `<div class="feedback"><strong>${certo ? "✅ Acertou!" : "❌ Não foi dessa vez."}</strong>${esc(p.explicacao)}</div>
+      <div style="margin-top:12px;text-align:right"><button class="btn" id="q-next">${qi + 1 < PERGUNTAS.length ? "Próxima pergunta →" : "Ver resultado"}</button></div>`;
+    document.getElementById("q-next").onclick = () => { qi++; renderQuiz(); };
+    document.getElementById("q-next").focus();
+  }
+  renderQuiz();
+
+  /* ---------------- MEMÓRIA ---------------- */
+  const SIMBOLOS = ["{ }", "</>", "=>", "[ ]", "&&", "( )", "===", "#"];
+  const grid = document.getElementById("cards"), mInfo = document.getElementById("m-info"), mStatus = document.getElementById("m-status");
+  let baralho = [], abertas = [], feitos = 0, jogadas = 0, travado = false;
+  function lerRecorde() { try { return +localStorage.getItem("arcade-recorde") || 0; } catch { return 0; } }
+  function salvarRecorde(v) { try { localStorage.setItem("arcade-recorde", v); } catch {} }
+  function infoMem() { const r = lerRecorde(); mInfo.textContent = `Pares ${feitos}/8 · Jogadas ${jogadas}${r ? ` · Recorde ${r}` : ""}`; }
+  function novaMemoria() {
+    baralho = [...SIMBOLOS, ...SIMBOLOS].map(s => ({ s, r: Math.random() })).sort((a, b) => a.r - b.r).map(o => o.s);
+    abertas = []; feitos = 0; jogadas = 0; travado = false;
+    grid.innerHTML = baralho.map((s, i) => `<button class="card" data-i="${i}" aria-label="Carta ${i + 1}"><div class="inner"><div class="face back">?</div><div class="face front">${esc(s)}</div></div></button>`).join("");
+    grid.querySelectorAll(".card").forEach(c => c.addEventListener("click", () => virar(c)));
+    mStatus.textContent = "Vire duas cartas iguais para formar um par."; infoMem();
+  }
+  function virar(c) {
+    if (travado || c.classList.contains("up") || c.classList.contains("done")) return;
+    c.classList.add("up"); c.setAttribute("aria-label", `Carta ${+c.dataset.i + 1}: ${baralho[c.dataset.i]}`); abertas.push(c);
+    if (abertas.length < 2) return;
+    jogadas++;
+    const [a, b] = abertas;
+    if (baralho[a.dataset.i] === baralho[b.dataset.i]) {
+      a.classList.add("done"); b.classList.add("done"); a.disabled = b.disabled = true; abertas = []; feitos++;
+      mStatus.textContent = `✨ Par encontrado: ${baralho[a.dataset.i]}`;
+      if (feitos === 8) {
+        const r = lerRecorde(); if (!r || jogadas < r) salvarRecorde(jogadas);
+        mStatus.textContent = `🎉 Você completou em ${jogadas} jogadas!${!r || jogadas < r ? " Novo recorde!" : ""}`;
+      }
+    } else {
+      travado = true; mStatus.textContent = "Quase! Memorize e tente de novo.";
+      setTimeout(() => { a.classList.remove("up"); b.classList.remove("up"); abertas = []; travado = false; }, 900);
+    }
+    infoMem();
+  }
+  document.getElementById("m-reset").onclick = novaMemoria;
+  novaMemoria();
+
+  /* ---------------- XADREZ ---------------- */
+  const TIME = { w: { corpo: "#ec4899", luz: "#fdf2f8", linha: "#831843" }, b: { corpo: "#7c3aed", luz: "#ede9fe", linha: "#2e1065" } };
+  function peca(tipo, cor) {
+    const t = TIME[cor], a = `fill="${t.corpo}" stroke="${t.linha}" stroke-width="2.2" stroke-linejoin="round"`, br = `fill="${t.luz}" opacity="0.55"`;
+    const base = `<rect x="12" y="39" width="28" height="7" rx="3.5" ${a}/>`;
+    const formas = {
+      p: `<path d="M18 40 Q19 28 26 26 Q33 28 34 40 Z" ${a}/><circle cx="26" cy="19" r="7.5" ${a}/><circle cx="23.5" cy="16.5" r="2.4" ${br}/>`,
+      r: `<rect x="17" y="21" width="18" height="19" rx="2" ${a}/><path d="M14 12 h6 v4 h3 v-4 h6 v4 h3 v-4 h6 v10 h-24 Z" ${a}/><rect x="18" y="14" width="3" height="5" rx="1.5" ${br}/>`,
+      b: `<path d="M18 40 Q16 28 26 13 Q36 28 34 40 Z" ${a}/><circle cx="26" cy="10" r="3.4" ${a}/><path d="M29 20 L23 28" stroke="${t.linha}" stroke-width="2.4" stroke-linecap="round"/><ellipse cx="22" cy="27" rx="2" ry="4" ${br}/>`,
+      n: `<path d="M17 40 L18.5 31 Q15 25 20 18 L23 10 L27 15 Q37 16 37 27 L34 32 L28.5 29 L27.5 33.5 L34 40 Z" ${a}/><circle cx="25.5" cy="19.5" r="1.8" fill="${t.linha}"/>`,
+      q: `<path d="M15 40 L16.5 21 L21 30 L26 17 L31 30 L35.5 21 L37 40 Z" ${a}/><circle cx="16.5" cy="18.5" r="3" ${a}/><circle cx="26" cy="14.5" r="3" ${a}/><circle cx="35.5" cy="18.5" r="3" ${a}/><circle cx="26" cy="31" r="2.6" fill="#fde047" stroke="${t.linha}" stroke-width="1.2"/>`,
+      k: `<path d="M17 40 Q16 26 26 22 Q36 26 35 40 Z" ${a}/><rect x="24" y="7" width="4" height="14" rx="1.5" fill="#fde047" stroke="${t.linha}" stroke-width="1.6"/><rect x="20" y="10.5" width="12" height="4" rx="1.5" fill="#fde047" stroke="${t.linha}" stroke-width="1.6"/><ellipse cx="22" cy="30" rx="2.2" ry="4.5" ${br}/>`
+    };
+    return `<svg viewBox="0 0 52 52" aria-hidden="true">${base}${formas[tipo]}</svg>`;
+  }
+  const NOMES = { p: "peão", n: "cavalo", b: "bispo", r: "torre", q: "dama", k: "rei" };
+  const VALOR = { p: 1, n: 3, b: 3, r: 5, q: 9, k: 0 };
+  const boardEl = document.getElementById("board"), xStatus = document.getElementById("x-status");
+  if (typeof Chess === "undefined") { xStatus.textContent = "Não consegui carregar o xadrez agora. Atualize a página."; return; }
+  let jogo = new Chess(), selecionada = null, ultimo = null, pensando = false;
+  const casa = (f, r) => "abcdefgh"[f] + (8 - r);
+  function desenhar() {
+    const alvos = selecionada ? jogo.moves({ square: selecionada, verbose: true }) : [];
+    const reiXeque = jogo.in_check() ? (() => { for (let r = 0; r < 8; r++) for (let f = 0; f < 8; f++) { const p = jogo.get(casa(f, r)); if (p && p.type === "k" && p.color === jogo.turn()) return casa(f, r); } })() : null;
+    let html = "";
+    for (let r = 0; r < 8; r++) for (let f = 0; f < 8; f++) {
+      const c = casa(f, r), p = jogo.get(c), cls = ["sq", (r + f) % 2 ? "d" : "l"];
+      if (ultimo && (ultimo.from === c || ultimo.to === c)) cls.push("last");
+      if (selecionada === c) cls.push("sel");
+      if (reiXeque === c) cls.push("check");
+      const alvo = alvos.find(m => m.to === c); if (alvo) cls.push(p ? "cap" : "dot");
+      html += `<button class="${cls.join(" ")}" data-c="${c}" aria-label="${c.toUpperCase()}${p ? " " + NOMES[p.type] + (p.color === "w" ? " rosa" : " roxo") : ""}">${p ? peca(p.type, p.color) : ""}</button>`;
+    }
+    boardEl.innerHTML = html;
+  }
+  function fim() {
+    if (jogo.in_checkmate()) return jogo.turn() === "w" ? "😵 Xeque-mate! O robô venceu. Revanche?" : "🏆 Xeque-mate! Você venceu!";
+    if (jogo.in_draw() || jogo.in_stalemate() || jogo.in_threefold_repetition()) return "🤝 Empate!";
+    return null;
+  }
+  function vezRobo() {
+    pensando = true; xStatus.textContent = "🤖 O robô está pensando...";
+    setTimeout(() => {
+      const moves = jogo.moves({ verbose: true });
+      let melhor = null, nota = -1;
+      moves.forEach(m => {
+        let n = Math.random();
+        if (m.captured) n += VALOR[m.captured] * 2;
+        if (m.flags.includes("p")) n += 8;
+        jogo.move(m); if (jogo.in_checkmate()) n += 100; else if (jogo.in_check()) n += 1.5;
+        const resposta = jogo.moves({ verbose: true }).some(r => r.to === m.to && r.captured); jogo.undo();
+        if (resposta) n -= VALOR[m.piece] * 1.5;
+        if (n > nota) { nota = n; melhor = m; }
+      });
+      ultimo = jogo.move(melhor); pensando = false; desenhar();
+      xStatus.textContent = fim() || (jogo.in_check() ? "⚠️ Xeque! Proteja seu rei." : `O robô jogou ${NOMES[melhor.piece]} ${melhor.from.toUpperCase()} → ${melhor.to.toUpperCase()}. Sua vez!`);
+    }, 550);
+  }
+  boardEl.addEventListener("click", e => {
+    const b = e.target.closest(".sq"); if (!b || pensando || fim() || jogo.turn() !== "w") return;
+    const c = b.dataset.c, p = jogo.get(c);
+    if (selecionada) {
+      const m = jogo.moves({ square: selecionada, verbose: true }).find(m => m.to === c);
+      if (m) {
+        ultimo = jogo.move({ from: selecionada, to: c, promotion: "q" }); selecionada = null; desenhar();
+        const f = fim(); if (f) { xStatus.textContent = f; return; }
+        vezRobo(); return;
+      }
+    }
+    selecionada = p && p.color === "w" ? (selecionada === c ? null : c) : null;
+    xStatus.textContent = selecionada ? `Agora clique onde o ${NOMES[p.type]} vai.` : "Sua vez: clique numa peça rosa.";
+    desenhar();
+  });
+  document.getElementById("x-reset").onclick = () => { jogo = new Chess(); selecionada = null; ultimo = null; pensando = false; xStatus.textContent = "Sua vez: clique numa peça rosa."; desenhar(); };
+  desenhar();
+})();
+</script>
+</body>
+</html>
