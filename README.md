@@ -99,7 +99,7 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 <br>
 
 <!-- ARCADE:QUIZ:INICIO -->
-<p align="center"><img src="arcade/out/pergunta-1.svg" width="100%" alt="Pergunta 1: O que este código imprime?"></p>
+<p align="center"><img src="arcade/out/pergunta-1.svg" width="600" alt="Pergunta 1: O que este código imprime?"></p>
 <p align="center"><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CA&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-A-1.svg" width="49%" alt="A) &quot;null&quot;"></a> <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CB&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-B-1.svg" width="49%" alt="B) &quot;object&quot;"></a><br><a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CC&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-C-1.svg" width="49%" alt="C) &quot;undefined&quot;"></a> <a href="https://github.com/Paula-Thamyres/Paula-Thamyres/issues/new?title=arcade%7Cquiz%7CD&body=S%C3%B3%20clicar%20em%20%2A%2ACreate%2A%2A%20%28ou%20%2A%2ASubmit%20new%20issue%2A%2A%29%20aqui%20embaixo.%20Em%20uns%2030%20segundos%20o%20rob%C3%B4%20faz%20a%20jogada%2C%20atualiza%20o%20perfil%20e%20fecha%20esta%20issue.%20%F0%9F%92%9C"><img src="arcade/out/opcao-D-1.svg" width="49%" alt="D) &quot;number&quot;"></a></p>
 
 <p align="center">Clique na alternativa que você acha certa 👆<br><sub>0 perguntas já respondidas pela comunidade</sub></p>
@@ -107,7 +107,7 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 
 </details>
 
-<details>
+<details open>
 <summary><b>🃏 Memória Dev</b> · encontre os pares de código</summary>
 <br>
 
@@ -119,7 +119,7 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 
 </details>
 
-<details>
+<details open>
 <summary><b>♟️ Xadrez Candy</b> · uma partida aberta para todo mundo</summary>
 <br>
 
