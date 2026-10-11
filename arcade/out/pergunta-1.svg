@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="160" viewBox="0 0 760 160">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1236"/><stop offset="1" stop-color="#2a1450"/></linearGradient></defs>
-<rect width="760" height="160" rx="18" fill="url(#g)"/>
-<text x="32" y="40" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#f472b6">PERGUNTA 01 DE 20 · JAVASCRIPT</text>
-<text x="32" y="76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#ffffff">O que este código imprime?</text>
-<rect x="32" y="96" width="696" height="44" rx="10" fill="#0b0f17"/><text x="50" y="122" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="17" fill="#22d3ee">console.log(typeof null)</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="128" viewBox="0 0 560 128">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1236"/><stop offset="1" stop-color="#271446"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="559" height="127" rx="14" fill="url(#g)" stroke="#8b5cf6" stroke-opacity="0.35"/>
+<text x="22" y="28" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="10" font-weight="600" letter-spacing="1.5" fill="#f472b6">PERGUNTA 01 DE 20 · JAVASCRIPT</text>
+<text x="22" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#ffffff">O que este código imprime?</text>
+<rect x="22" y="66" width="516" height="36" rx="8" fill="#0b0f17"/><text x="36" y="86" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#22d3ee">console.log(typeof null)</text>
 </svg>
