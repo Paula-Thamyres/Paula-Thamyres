@@ -11,6 +11,9 @@
 
 <!-- 👇 COLE AQUI A LINHA DO SEU BANNER (a imagem do quarto roxo) -->
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=2800&pause=900&color=C4B5FD&center=true&vCenter=true&width=640&height=34&lines=Desenvolvedora+Front-End;React+%C2%B7+JavaScript+%C2%B7+HTML+%26+CSS;IA+Generativa+%26+RAG+como+diferencial;Do+mobile+%C3%A0+web%2C+com+c%C3%B3digo+limpo" alt="Desenvolvedora Front-End" />
+</p>
 
 <!-- ==================== SOBRE MIM ==================== -->
 <p>
@@ -156,7 +159,7 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
   <a href="https://www.linkedin.com/in/paula-femina">
     <img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:SEU_EMAIL_AQUI">
+  <a href="mailto:paula.arthamys@gmail.com">
     <img src="https://img.shields.io/badge/E--mail-A78BFA?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" />
   </a>
 </p>
