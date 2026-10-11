@@ -21,11 +21,14 @@ Agora estou expandindo meus conhecimentos para o universo Front-end, estudando R
 </td>
 <td width="44%" valign="top">
 
-💻 &nbsp;Desenvolvedora Mobile Android <br/>
-📱 &nbsp;Experiência com Kotlin & Jetpack Compose <br/>
-🎨 &nbsp;Interesse em UI/UX e interfaces modernas <br/>
-⚡ &nbsp;Explorando o ecossistema Front-end com React.js <br/>
-📚 &nbsp;Sempre aprendendo novas tecnologias
+👩‍💻 &nbsp;Desenvolvedora Front-End <br/>
+⚛️ &nbsp;React.js · JavaScript · HTML & CSS <br/>
+📱 &nbsp;Background em Android com Kotlin & Jetpack Compose <br/>
+✨ &nbsp;Diferencial: IA Generativa & RAG aplicados a interfaces <br/>
+🧠 &nbsp;Formação em IA & RAG pelo Instituto ECOA (PUC-Rio) <br/>
+🔎 &nbsp;Experiência prática com RAG aplicado à saúde pública <br/>
+🎓 &nbsp;Especialização em Inteligência Artificial
+
 
 </td>
 </tr>
