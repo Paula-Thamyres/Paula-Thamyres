@@ -21,7 +21,7 @@ jobs:
       - name: Gerar a cidade com as contribuições reais
         run: node perfil/gerar-cidade.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERFIL_TOKEN }}
           USUARIO: ${{ github.repository_owner }}
 
       - name: Salvar a cidade nova
