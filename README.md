@@ -13,7 +13,7 @@
 <!-- ==================== SOBRE MIM ==================== -->
 <p>
 Desenvolvedora Front-End que gosta de transformar ideias em interfaces bonitas, acessíveis e bem construídas.
-Venho do desenvolvimento Android com Kotlin e Jetpack Compose — e levo para a web a mesma forma de pensar em componentes e UI declarativa.
+Venho do desenvolvimento Android com Kotlin e Jetpack Compose, e levo para a web a mesma forma de pensar em componentes e UI declarativa.
 Como diferencial, trago experiência prática com IA Generativa e RAG para criar aplicações mais inteligentes. 💜
 </p>
 
