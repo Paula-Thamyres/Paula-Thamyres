@@ -42,7 +42,7 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 ### ⚙️ Como eu trabalho
 
 <p align="center">
-  <img src="perfil/como-eu-trabalho.svg" width="100%" alt="Como eu trabalho: componentização e UI declarativa; Git com branches por tarefa e Pull Requests; code review em equipe; commits padronizados; documentação técnica clara; versionamento de dados e reprodutibilidade; aprendizado contínuo, um projeto de cada vez" />
+  <img src="perfil/como-eu-trabalho.svg" width="100%" alt="Como eu trabalho: componentização e UI declarativa; Git com branches por tarefa e Pull Requests; code review em equipe; commits padronizados; documentação técnica clara; versionamento de dados e reprodutibilidade; aprendizado contínuo, organização para tocar vários projetos em paralelo" />
 </p>
 
 
