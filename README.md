@@ -84,6 +84,14 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 </p>
 
 
+<!-- ==================== CONTRIBUIÇÕES ==================== -->
+### 🏙️ Contribuições
+
+<p align="center">
+  <img src="perfil/cidade.svg" width="100%" alt="Minhas contribuições no último ano: cada prédio é uma semana" />
+</p>
+
+
 <!-- ==================== ARCADE ==================== -->
 ### 🎮 Arcade da Paula
 
@@ -115,5 +123,5 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:F472B6&height=110&section=footer&text=Transformando%20ideias%20em%20experi%C3%AAncias%20digitais&fontSize=18&fontColor=FFFFFF&fontAlignY=68" alt="Transformando ideias em experiências digitais" />
+  <img src="perfil/rodape.svg" width="100%" alt="Transformando ideias em experiências digitais" />
 </p>
