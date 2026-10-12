@@ -21,7 +21,7 @@ jobs:
       - name: Gerar o Stats com os números reais
         run: node perfil/gerar-stats.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERFIL_TOKEN }}
           USUARIO: ${{ github.repository_owner }}
 
       - name: Salvar o Stats novo
