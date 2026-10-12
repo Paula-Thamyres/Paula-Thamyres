@@ -18,11 +18,12 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 </p>
 
 👩‍💻 &nbsp;Desenvolvedora Front-End <br/>
-⚛️ &nbsp;React.js · JavaScript · HTML & CSS <br/>
+⚛️ &nbsp;React.js · TypeScript · JavaScript · HTML & CSS <br/>
 📱 &nbsp;Background em Android com Kotlin & Jetpack Compose <br/>
 ✨ &nbsp;Diferencial: IA Generativa & RAG aplicados a interfaces <br/>
 🧠 &nbsp;Formação em IA & RAG pelo Instituto ECOA (PUC-Rio) <br/>
 🔎 &nbsp;Experiência prática com RAG aplicado à saúde pública <br/>
+🎓 &nbsp;Bacharel em Sistemas de Informação pela Fundação Hermínio Ometto <br/>
 🎓 &nbsp;Especialização em Inteligência Artificial <br/>
 
 ```bash
