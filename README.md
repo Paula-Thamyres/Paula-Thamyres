@@ -32,55 +32,27 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 ```
 
 
-<!-- ==================== TECNOLOGIAS + COMO EU TRABALHO ==================== -->
-<table>
-<tr>
-<td valign="top" width="58%">
-
+<!-- ==================== TECNOLOGIAS ==================== -->
 ### 🚀 Tecnologias & Ferramentas
 
-**Front-End**<br/>
-<img src="https://skillicons.dev/icons?i=react,js,html,css,figma&theme=dark" alt="Front-End" />
+<p align="center">
+  <img src="perfil/tecnologias.svg" width="100%" alt="Tecnologias: React, JavaScript, HTML, CSS, Figma, Kotlin, Jetpack Compose, Android Studio, Python, ChromaDB, Hugging Face, Streamlit, Colab, Git, GitHub, VS Code" />
+</p>
 
-**Mobile**<br/>
-<img src="https://skillicons.dev/icons?i=kotlin,androidstudio&theme=dark" alt="Mobile" />
-<img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" />
 
-**IA & RAG**<br/>
-<img src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python" />
-<img src="https://img.shields.io/badge/ChromaDB-8B5CF6?style=for-the-badge" alt="ChromaDB" />
-<img src="https://img.shields.io/badge/Hugging_Face-A78BFA?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face" />
-<img src="https://img.shields.io/badge/Streamlit-C084FC?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-<img src="https://img.shields.io/badge/Google_Colab-7C3AED?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Google Colab" />
+<!-- ==================== COMO EU TRABALHO ==================== -->
+### ⚙️ Como eu trabalho
 
-**Ferramentas**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Ferramentas" />
-
-</td>
-<td valign="top" width="42%">
-
-### 🤝 Como eu trabalho
-
-💜 Componentização e UI declarativa <br/>
-💜 Git com branches por tarefa e Pull Requests <br/>
-💜 Code review em equipe <br/>
-💜 Commits padronizados <br/>
-💜 Documentação técnica clara <br/>
-💜 Versionamento de dados e reprodutibilidade <br/>
-💜 Aprendizado contínuo, um projeto de cada vez
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="perfil/como-eu-trabalho.svg" width="100%" alt="Como eu trabalho: componentização e UI declarativa; Git com branches por tarefa e Pull Requests; code review em equipe; commits padronizados; documentação técnica clara; versionamento de dados e reprodutibilidade; aprendizado contínuo, um projeto de cada vez" />
+</p>
 
 
 <!-- ==================== GITHUB STATS ==================== -->
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Paula-Thamyres&show_icons=true&hide_rank=true&hide=stars,prs,issues&count_private=true&bg_color=0d1117&title_color=A78BFA&icon_color=C084FC&text_color=C9D1D9&hide_border=true&custom_title=Minha%20jornada" alt="GitHub Stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Paula-Thamyres&background=0d1117&ring=8B5CF6&fire=C084FC&currStreakNum=FFFFFF&sideNums=A78BFA&currStreakLabel=C084FC&sideLabels=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true" alt="GitHub Streak" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paula-Thamyres&layout=compact&hide=jupyter%20notebook&bg_color=0d1117&title_color=A78BFA&text_color=C9D1D9&hide_border=true&langs_count=6" alt="Top Languages" />
+  <img src="perfil/stats.svg" width="100%" alt="GitHub Stats: contribuições, commits, pull requests, code reviews e sequência de dias" />
 </p>
 
 
@@ -111,7 +83,7 @@ Como diferencial, trago experiência prática com IA Generativa e RAG para criar
 
 
 <!-- ==================== CONTATO ==================== -->
-### 💌 Vamos nos conectar?
+### 📡 Vamos nos conectar?
 
 <p align="center">
   <a href="https://www.linkedin.com/in/paula-femina">
