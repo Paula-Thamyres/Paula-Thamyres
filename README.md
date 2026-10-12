@@ -1,8 +1,6 @@
 <!-- ==================== CABEÇALHO ==================== -->
-<p align="center">👋 Olá, eu sou</p>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=46&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&repeat=false&width=700&height=70&lines=Paula+Femina" alt="Paula Femina" />
+  <img src="perfil/cabecalho.svg" width="100%" alt="Olá, eu sou Paula Femina" />
 </p>
 
 <p align="center">
